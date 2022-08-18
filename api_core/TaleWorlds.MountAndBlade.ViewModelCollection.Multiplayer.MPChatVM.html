@@ -1,0 +1,2001 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MPChatVM
+   | Unofficial Bannerlord API Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MPChatVM
+   | Unofficial Bannerlord API Documentation ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/collapse-container.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                  </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM">
+  <h1 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM">Class MPChatVM
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="TaleWorlds.Library.ViewModel.html">ViewModel</a></div>
+    <div class="level2"><span class="xref">MPChatVM</span></div>
+  </div>
+  
+  
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_UIDebugMode">ViewModel.UIDebugMode</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_add_PropertyChangedWithValue_TaleWorlds_Library_PropertyChangedWithValueEventHandler_">ViewModel.add_PropertyChangedWithValue(PropertyChangedWithValueEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_remove_PropertyChangedWithValue_TaleWorlds_Library_PropertyChangedWithValueEventHandler_">ViewModel.remove_PropertyChangedWithValue(PropertyChangedWithValueEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_SetField__1___0____0_System_String_">ViewModel.SetField&lt;T&gt;(T, T, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_OnPropertyChanged_System_String_">ViewModel.OnPropertyChanged(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_OnPropertyChangedWithValue_System_Object_System_String_">ViewModel.OnPropertyChangedWithValue(Object, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_GetViewModelAtPath_TaleWorlds_Library_BindingPath_System_Boolean_">ViewModel.GetViewModelAtPath(BindingPath, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_GetViewModelAtPath_TaleWorlds_Library_BindingPath_">ViewModel.GetViewModelAtPath(BindingPath)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_GetPropertyValue_System_String_TaleWorlds_Library_PropertyTypeFeeder_">ViewModel.GetPropertyValue(String, PropertyTypeFeeder)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_GetPropertyValue_System_String_">ViewModel.GetPropertyValue(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_GetPropertyType_System_String_">ViewModel.GetPropertyType(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_SetPropertyValue_System_String_System_Object_">ViewModel.SetPropertyValue(String, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_ExecuteCommand_System_String_System_Object___">ViewModel.ExecuteCommand(String, Object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_Properties">ViewModel.Properties</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_PropertyChanged">ViewModel.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_PropertyChangedWithValue">ViewModel.PropertyChangedWithValue</a>
+    </div>
+  </div>
+  
+  <h6><strong>Namespace</strong>: <a class="xref" href="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.html">TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer</a></h6>
+  <h6><strong>Assembly</strong>: TaleWorlds.MountAndBlade.ViewModelCollection.dll</h6>
+  
+  <h5 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class MPChatVM : ViewModel, IViewModel, INotifyPropertyChanged, IChatHandler</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM__ctor_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.#ctor*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM__ctor" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.#ctor"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM__ctor" class="expander" data-toggle="collapse">MPChatVM()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM__ctor" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MPChatVM()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_BarkCategory" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.BarkCategory"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_BarkCategory" class="expander" data-toggle="collapse">BarkCategory</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_BarkCategory" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string BarkCategory = &quot;Bark&quot;</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_CombatCategory" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.CombatCategory"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_CombatCategory" class="expander" data-toggle="collapse">CombatCategory</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_CombatCategory" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string CombatCategory = &quot;Combat&quot;</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_DefaultCategory" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.DefaultCategory"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_DefaultCategory" class="expander" data-toggle="collapse">DefaultCategory</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_DefaultCategory" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string DefaultCategory = &quot;Default&quot;</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SocialCategory" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.SocialCategory"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SocialCategory" class="expander" data-toggle="collapse">SocialCategory</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SocialCategory" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string SocialCategory = &quot;Social&quot;</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ActiveChannelColor_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.ActiveChannelColor*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ActiveChannelColor" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.ActiveChannelColor"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ActiveChannelColor" class="expander" data-toggle="collapse">ActiveChannelColor</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ActiveChannelColor" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public Color ActiveChannelColor { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.Color.html">Color</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ActiveChannelNameText_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.ActiveChannelNameText*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ActiveChannelNameText" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.ActiveChannelNameText"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ActiveChannelNameText" class="expander" data-toggle="collapse">ActiveChannelNameText</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ActiveChannelNameText" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public string ActiveChannelNameText { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ActiveChannelType_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.ActiveChannelType*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ActiveChannelType" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.ActiveChannelType"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ActiveChannelType" class="expander" data-toggle="collapse">ActiveChannelType</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ActiveChannelType" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChatChannelType ActiveChannelType { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.MountAndBlade.Diamond.ChatChannelType.html">ChatChannelType</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_CancelSendingText_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.CancelSendingText*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_CancelSendingText" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.CancelSendingText"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_CancelSendingText" class="expander" data-toggle="collapse">CancelSendingText</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_CancelSendingText" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public string CancelSendingText { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ChatBoxSizeX_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.ChatBoxSizeX*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ChatBoxSizeX" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.ChatBoxSizeX"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ChatBoxSizeX" class="expander" data-toggle="collapse">ChatBoxSizeX</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ChatBoxSizeX" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public float ChatBoxSizeX { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ChatBoxSizeY_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.ChatBoxSizeY*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ChatBoxSizeY" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.ChatBoxSizeY"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ChatBoxSizeY" class="expander" data-toggle="collapse">ChatBoxSizeY</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ChatBoxSizeY" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public float ChatBoxSizeY { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_CombatLogHint_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.CombatLogHint*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_CombatLogHint" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.CombatLogHint"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_CombatLogHint" class="expander" data-toggle="collapse">CombatLogHint</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_CombatLogHint" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public HintViewModel CombatLogHint { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Core.ViewModelCollection.HintViewModel.html">HintViewModel</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_CycleThroughChannelsText_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.CycleThroughChannelsText*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_CycleThroughChannelsText" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.CycleThroughChannelsText"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_CycleThroughChannelsText" class="expander" data-toggle="collapse">CycleThroughChannelsText</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_CycleThroughChannelsText" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public string CycleThroughChannelsText { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_HideShowText_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.HideShowText*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_HideShowText" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.HideShowText"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_HideShowText" class="expander" data-toggle="collapse">HideShowText</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_HideShowText" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public string HideShowText { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IncludeBark_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.IncludeBark*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IncludeBark" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.IncludeBark"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IncludeBark" class="expander" data-toggle="collapse">IncludeBark</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IncludeBark" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public bool IncludeBark { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IncludeCombatLog_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.IncludeCombatLog*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IncludeCombatLog" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.IncludeCombatLog"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IncludeCombatLog" class="expander" data-toggle="collapse">IncludeCombatLog</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IncludeCombatLog" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public bool IncludeCombatLog { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IsChatDisabled_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.IsChatDisabled*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IsChatDisabled" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.IsChatDisabled"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IsChatDisabled" class="expander" data-toggle="collapse">IsChatDisabled</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IsChatDisabled" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public bool IsChatDisabled { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IsInspectingMessages_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.IsInspectingMessages*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IsInspectingMessages" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.IsInspectingMessages"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IsInspectingMessages" class="expander" data-toggle="collapse">IsInspectingMessages</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IsInspectingMessages" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public bool IsInspectingMessages { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IsOptionsAvailable_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.IsOptionsAvailable*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IsOptionsAvailable" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.IsOptionsAvailable"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IsOptionsAvailable" class="expander" data-toggle="collapse">IsOptionsAvailable</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IsOptionsAvailable" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public bool IsOptionsAvailable { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IsTypingText_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.IsTypingText*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IsTypingText" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.IsTypingText"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IsTypingText" class="expander" data-toggle="collapse">IsTypingText</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IsTypingText" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public bool IsTypingText { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_MaxMessageLength_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.MaxMessageLength*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_MaxMessageLength" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.MaxMessageLength"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_MaxMessageLength" class="expander" data-toggle="collapse">MaxMessageLength</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_MaxMessageLength" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public int MaxMessageLength { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_MessageHistory_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.MessageHistory*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_MessageHistory" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.MessageHistory"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_MessageHistory" class="expander" data-toggle="collapse">MessageHistory</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_MessageHistory" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public MBBindingList&lt;MPChatLineVM&gt; MessageHistory { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBBindingList-1.html">MBBindingList</a>&lt;<a class="xref" href="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatLineVM.html">MPChatLineVM</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SendMessageText_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.SendMessageText*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SendMessageText" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.SendMessageText"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SendMessageText" class="expander" data-toggle="collapse">SendMessageText</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SendMessageText" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public string SendMessageText { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ShowHideShowHint_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.ShowHideShowHint*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ShowHideShowHint" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.ShowHideShowHint"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ShowHideShowHint" class="expander" data-toggle="collapse">ShowHideShowHint</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ShowHideShowHint" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public bool ShowHideShowHint { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ToggleBarkText_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.ToggleBarkText*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ToggleBarkText" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.ToggleBarkText"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ToggleBarkText" class="expander" data-toggle="collapse">ToggleBarkText</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ToggleBarkText" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public string ToggleBarkText { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ToggleCombatLogText_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.ToggleCombatLogText*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ToggleCombatLogText" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.ToggleCombatLogText"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ToggleCombatLogText" class="expander" data-toggle="collapse">ToggleCombatLogText</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ToggleCombatLogText" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public string ToggleCombatLogText { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_WrittenText_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.WrittenText*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_WrittenText" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.WrittenText"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_WrittenText" class="expander" data-toggle="collapse">WrittenText</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_WrittenText" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public string WrittenText { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_CheckChatFading_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.CheckChatFading*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_CheckChatFading_System_Single_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.CheckChatFading(System.Single)"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_CheckChatFading_System_Single_" class="expander" data-toggle="collapse">CheckChatFading(Single)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_CheckChatFading_System_Single_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CheckChatFading(float dt)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></span>
+        <span class="parametername">dt</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_Clear_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.Clear*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_Clear" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.Clear"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_Clear" class="expander" data-toggle="collapse">Clear()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_Clear" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ExecuteSaveSizes_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.ExecuteSaveSizes*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ExecuteSaveSizes" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.ExecuteSaveSizes"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ExecuteSaveSizes" class="expander" data-toggle="collapse">ExecuteSaveSizes()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ExecuteSaveSizes" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ExecuteSaveSizes()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ExecuteToggleIncludeShouts_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.ExecuteToggleIncludeShouts*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ExecuteToggleIncludeShouts" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.ExecuteToggleIncludeShouts"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ExecuteToggleIncludeShouts" class="expander" data-toggle="collapse">ExecuteToggleIncludeShouts()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ExecuteToggleIncludeShouts" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ExecuteToggleIncludeShouts()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_OnFinalize_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.OnFinalize*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_OnFinalize" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.OnFinalize"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_OnFinalize" class="expander" data-toggle="collapse">OnFinalize()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_OnFinalize" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnFinalize()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_OnFinalize">ViewModel.OnFinalize()</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_RefreshValues_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.RefreshValues*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_RefreshValues" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.RefreshValues"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_RefreshValues" class="expander" data-toggle="collapse">RefreshValues()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_RefreshValues" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void RefreshValues()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_RefreshValues">ViewModel.RefreshValues()</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SendCurrentlyTypedMessage_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.SendCurrentlyTypedMessage*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SendCurrentlyTypedMessage" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.SendCurrentlyTypedMessage"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SendCurrentlyTypedMessage" class="expander" data-toggle="collapse">SendCurrentlyTypedMessage()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SendCurrentlyTypedMessage" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendCurrentlyTypedMessage()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SendMessageToChannel_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.SendMessageToChannel*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SendMessageToChannel_TaleWorlds_MountAndBlade_Diamond_ChatChannelType_System_String_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.SendMessageToChannel(TaleWorlds.MountAndBlade.Diamond.ChatChannelType,System.String)"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SendMessageToChannel_TaleWorlds_MountAndBlade_Diamond_ChatChannelType_System_String_" class="expander" data-toggle="collapse">SendMessageToChannel(ChatChannelType, String)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SendMessageToChannel_TaleWorlds_MountAndBlade_Diamond_ChatChannelType_System_String_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendMessageToChannel(ChatChannelType channel, string message)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.MountAndBlade.Diamond.ChatChannelType.html">ChatChannelType</a></span>
+        <span class="parametername">channel</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></span>
+        <span class="parametername">message</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SendMessageToLobbyChannel_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.SendMessageToLobbyChannel*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SendMessageToLobbyChannel_System_String_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.SendMessageToLobbyChannel(System.String)"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SendMessageToLobbyChannel_System_String_" class="expander" data-toggle="collapse">SendMessageToLobbyChannel(String)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SendMessageToLobbyChannel_System_String_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SendMessageToLobbyChannel(string message)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></span>
+        <span class="parametername">message</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SetGetCancelSendingKeyTextFunc_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.SetGetCancelSendingKeyTextFunc*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SetGetCancelSendingKeyTextFunc_System_Func_TaleWorlds_Localization_TextObject__" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.SetGetCancelSendingKeyTextFunc(System.Func{TaleWorlds.Localization.TextObject})"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SetGetCancelSendingKeyTextFunc_System_Func_TaleWorlds_Localization_TextObject__" class="expander" data-toggle="collapse">SetGetCancelSendingKeyTextFunc(Func&lt;TextObject&gt;)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SetGetCancelSendingKeyTextFunc_System_Func_TaleWorlds_Localization_TextObject__" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetGetCancelSendingKeyTextFunc(Func&lt;TextObject&gt; getCancelSendingKeyText)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="TaleWorlds.Localization.TextObject.html">TextObject</a>&gt;</span>
+        <span class="parametername">getCancelSendingKeyText</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SetGetCycleChannelKeyTextFunc_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.SetGetCycleChannelKeyTextFunc*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SetGetCycleChannelKeyTextFunc_System_Func_TaleWorlds_Localization_TextObject__" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.SetGetCycleChannelKeyTextFunc(System.Func{TaleWorlds.Localization.TextObject})"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SetGetCycleChannelKeyTextFunc_System_Func_TaleWorlds_Localization_TextObject__" class="expander" data-toggle="collapse">SetGetCycleChannelKeyTextFunc(Func&lt;TextObject&gt;)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SetGetCycleChannelKeyTextFunc_System_Func_TaleWorlds_Localization_TextObject__" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetGetCycleChannelKeyTextFunc(Func&lt;TextObject&gt; getCycleChannelsKeyText)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="TaleWorlds.Localization.TextObject.html">TextObject</a>&gt;</span>
+        <span class="parametername">getCycleChannelsKeyText</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SetGetKeyTextFromKeyIDFunc_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.SetGetKeyTextFromKeyIDFunc*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SetGetKeyTextFromKeyIDFunc_System_Func_TaleWorlds_Localization_TextObject__" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.SetGetKeyTextFromKeyIDFunc(System.Func{TaleWorlds.Localization.TextObject})"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SetGetKeyTextFromKeyIDFunc_System_Func_TaleWorlds_Localization_TextObject__" class="expander" data-toggle="collapse">SetGetKeyTextFromKeyIDFunc(Func&lt;TextObject&gt;)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SetGetKeyTextFromKeyIDFunc_System_Func_TaleWorlds_Localization_TextObject__" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetGetKeyTextFromKeyIDFunc(Func&lt;TextObject&gt; getToggleChatKeyText)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="TaleWorlds.Localization.TextObject.html">TextObject</a>&gt;</span>
+        <span class="parametername">getToggleChatKeyText</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SetGetSendMessageKeyTextFunc_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.SetGetSendMessageKeyTextFunc*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SetGetSendMessageKeyTextFunc_System_Func_TaleWorlds_Localization_TextObject__" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.SetGetSendMessageKeyTextFunc(System.Func{TaleWorlds.Localization.TextObject})"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SetGetSendMessageKeyTextFunc_System_Func_TaleWorlds_Localization_TextObject__" class="expander" data-toggle="collapse">SetGetSendMessageKeyTextFunc(Func&lt;TextObject&gt;)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SetGetSendMessageKeyTextFunc_System_Func_TaleWorlds_Localization_TextObject__" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetGetSendMessageKeyTextFunc(Func&lt;TextObject&gt; getSendMessageKeyText)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="TaleWorlds.Localization.TextObject.html">TextObject</a>&gt;</span>
+        <span class="parametername">getSendMessageKeyText</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SetMessageHistoryCapacity_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.SetMessageHistoryCapacity*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SetMessageHistoryCapacity_System_Int32_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.SetMessageHistoryCapacity(System.Int32)"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SetMessageHistoryCapacity_System_Int32_" class="expander" data-toggle="collapse">SetMessageHistoryCapacity(Int32)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_SetMessageHistoryCapacity_System_Int32_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetMessageHistoryCapacity(int capacity)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></span>
+        <span class="parametername">capacity</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_StartInspectingMessages_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.StartInspectingMessages*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_StartInspectingMessages" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.StartInspectingMessages"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_StartInspectingMessages" class="expander" data-toggle="collapse">StartInspectingMessages()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_StartInspectingMessages" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartInspectingMessages()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_StartTyping_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.StartTyping*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_StartTyping" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.StartTyping"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_StartTyping" class="expander" data-toggle="collapse">StartTyping()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_StartTyping" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartTyping()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_StopInspectingMessages_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.StopInspectingMessages*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_StopInspectingMessages" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.StopInspectingMessages"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_StopInspectingMessages" class="expander" data-toggle="collapse">StopInspectingMessages()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_StopInspectingMessages" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopInspectingMessages()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_StopTyping_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.StopTyping*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_StopTyping_System_Boolean_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.StopTyping(System.Boolean)"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_StopTyping_System_Boolean_" class="expander" data-toggle="collapse">StopTyping(Boolean)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_StopTyping_System_Boolean_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopTyping(bool resetWrittenText = false)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></span>
+        <span class="parametername">resetWrittenText</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_Tick_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.Tick*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_Tick_System_Single_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.Tick(System.Single)"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_Tick_System_Single_" class="expander" data-toggle="collapse">Tick(Single)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_Tick_System_Single_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Tick(float dt)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></span>
+        <span class="parametername">dt</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ToggleIncludeCombatLog_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.ToggleIncludeCombatLog*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ToggleIncludeCombatLog" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.ToggleIncludeCombatLog"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ToggleIncludeCombatLog" class="expander" data-toggle="collapse">ToggleIncludeCombatLog()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_ToggleIncludeCombatLog" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleIncludeCombatLog()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_TypeToChannelAll_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.TypeToChannelAll*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_TypeToChannelAll_System_Boolean_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.TypeToChannelAll(System.Boolean)"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_TypeToChannelAll_System_Boolean_" class="expander" data-toggle="collapse">TypeToChannelAll(Boolean)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_TypeToChannelAll_System_Boolean_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TypeToChannelAll(bool startTyping = false)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></span>
+        <span class="parametername">startTyping</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_TypeToChannelTeam_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.TypeToChannelTeam*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_TypeToChannelTeam_System_Boolean_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.TypeToChannelTeam(System.Boolean)"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_TypeToChannelTeam_System_Boolean_" class="expander" data-toggle="collapse">TypeToChannelTeam(Boolean)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_TypeToChannelTeam_System_Boolean_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TypeToChannelTeam(bool startTyping = false)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></span>
+        <span class="parametername">startTyping</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_UpdateObjects_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.UpdateObjects*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_UpdateObjects_TaleWorlds_Core_Game_TaleWorlds_MountAndBlade_Mission_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.UpdateObjects(TaleWorlds.Core.Game,TaleWorlds.MountAndBlade.Mission)"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_UpdateObjects_TaleWorlds_Core_Game_TaleWorlds_MountAndBlade_Mission_" class="expander" data-toggle="collapse">UpdateObjects(Game, Mission)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_UpdateObjects_TaleWorlds_Core_Game_TaleWorlds_MountAndBlade_Mission_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateObjects(Game game, Mission mission)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.Core.Game.html">Game</a></span>
+        <span class="parametername">game</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.MountAndBlade.Mission.html">Mission</a></span>
+        <span class="parametername">mission</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IChatHandler_ReceiveChatMessage_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.IChatHandler#ReceiveChatMessage*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IChatHandler_ReceiveChatMessage_TaleWorlds_MountAndBlade_Diamond_ChatChannelType_System_String_System_String_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.Multiplayer.MPChatVM.IChatHandler#ReceiveChatMessage(TaleWorlds.MountAndBlade.Diamond.ChatChannelType,System.String,System.String)"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IChatHandler_ReceiveChatMessage_TaleWorlds_MountAndBlade_Diamond_ChatChannelType_System_String_System_String_" class="expander" data-toggle="collapse">IChatHandler.ReceiveChatMessage(ChatChannelType, String, String)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_Multiplayer_MPChatVM_IChatHandler_ReceiveChatMessage_TaleWorlds_MountAndBlade_Diamond_ChatChannelType_System_String_System_String_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void IChatHandler.ReceiveChatMessage(ChatChannelType channel, string sender, string message)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.MountAndBlade.Diamond.ChatChannelType.html">ChatChannelType</a></span>
+        <span class="parametername">channel</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></span>
+        <span class="parametername">sender</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></span>
+        <span class="parametername">message</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h5 class="implements">Implements</h5>
+      <div><span class="xref">IChatHandler.ReceiveChatMessage(TaleWorlds.MountAndBlade.Diamond.ChatChannelType, System.String, System.String)</span></div>
+  
+  
+  
+  
+  </div>
+  
+  
+</article>
+          </div>
+          <div class="contribution-panel mobile-hide">
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Unofficial Bannerlord API Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

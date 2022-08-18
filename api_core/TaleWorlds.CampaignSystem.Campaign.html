@@ -1,0 +1,5856 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Campaign
+   | Unofficial Bannerlord API Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Campaign
+   | Unofficial Bannerlord API Documentation ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/collapse-container.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                  </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TaleWorlds.CampaignSystem.Campaign">
+  <h1 id="TaleWorlds_CampaignSystem_Campaign" data-uid="TaleWorlds.CampaignSystem.Campaign">Class Campaign
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="TaleWorlds.Core.GameType.html">GameType</a></div>
+    <div class="level2"><span class="xref">Campaign</span></div>
+  </div>
+  
+  
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="TaleWorlds.Core.GameType.html#TaleWorlds_Core_GameType_DoLoadingForGameType">GameType.DoLoadingForGameType()</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Core.GameType.html#TaleWorlds_Core_GameType_CurrentGame">GameType.CurrentGame</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Core.GameType.html#TaleWorlds_Core_GameType_ObjectManager">GameType.ObjectManager</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Core.GameType.html#TaleWorlds_Core_GameType_GameManager">GameType.GameManager</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Core.GameType.html#TaleWorlds_Core_GameType_IsQuestScreenAccessibleAtMission">GameType.IsQuestScreenAccessibleAtMission</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Core.GameType.html#TaleWorlds_Core_GameType_IsCharacterWindowAccessibleAtMission">GameType.IsCharacterWindowAccessibleAtMission</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Core.GameType.html#TaleWorlds_Core_GameType_IsKingdomWindowAccessibleAtMission">GameType.IsKingdomWindowAccessibleAtMission</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Core.GameType.html#TaleWorlds_Core_GameType_IsClanWindowAccessibleAtMission">GameType.IsClanWindowAccessibleAtMission</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Core.GameType.html#TaleWorlds_Core_GameType_IsEncyclopediaWindowAccessibleAtMission">GameType.IsEncyclopediaWindowAccessibleAtMission</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Core.GameType.html#TaleWorlds_Core_GameType_IsBannerWindowAccessibleAtMission">GameType.IsBannerWindowAccessibleAtMission</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Core.GameType.html#TaleWorlds_Core_GameType_IsCoreOnlyGameMode">GameType.IsCoreOnlyGameMode</a>
+    </div>
+  </div>
+  
+  <h6><strong>Namespace</strong>: <a class="xref" href="TaleWorlds.CampaignSystem.html">TaleWorlds.CampaignSystem</a></h6>
+  <h6><strong>Assembly</strong>: TaleWorlds.CampaignSystem.dll</h6>
+  
+  <h5 id="TaleWorlds_CampaignSystem_Campaign_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Campaign : GameType</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign__ctor_" data-uid="TaleWorlds.CampaignSystem.Campaign.#ctor*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign__ctor_TaleWorlds_CampaignSystem_CampaignGameMode_" data-uid="TaleWorlds.CampaignSystem.Campaign.#ctor(TaleWorlds.CampaignSystem.CampaignGameMode)"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign__ctor_TaleWorlds_CampaignSystem_CampaignGameMode_" class="expander" data-toggle="collapse">Campaign(CampaignGameMode)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign__ctor_TaleWorlds_CampaignSystem_CampaignGameMode_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Campaign(CampaignGameMode gameMode)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignGameMode.html">CampaignGameMode</a></span>
+        <span class="parametername">gameMode</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign__partyUpgrader" data-uid="TaleWorlds.CampaignSystem.Campaign._partyUpgrader"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign__partyUpgrader" class="expander" data-toggle="collapse">_partyUpgrader</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign__partyUpgrader" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PartyUpgrader _partyUpgrader</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.Party.PartyUpgrader.html">PartyUpgrader</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_autoEnterTown" data-uid="TaleWorlds.CampaignSystem.Campaign.autoEnterTown"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_autoEnterTown" class="expander" data-toggle="collapse">autoEnterTown</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_autoEnterTown" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableField((short)44)]
+public PartyBase autoEnterTown</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.Party.PartyBase.html">PartyBase</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_ConfigTimeMultiplier" data-uid="TaleWorlds.CampaignSystem.Campaign.ConfigTimeMultiplier"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_ConfigTimeMultiplier" class="expander" data-toggle="collapse">ConfigTimeMultiplier</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_ConfigTimeMultiplier" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const float ConfigTimeMultiplier = 0.25F</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_CurrentConversationContext" data-uid="TaleWorlds.CampaignSystem.Campaign.CurrentConversationContext"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_CurrentConversationContext" class="expander" data-toggle="collapse">CurrentConversationContext</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_CurrentConversationContext" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConversationContext CurrentConversationContext</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.ConversationContext.html">ConversationContext</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_GameStarted" data-uid="TaleWorlds.CampaignSystem.Campaign.GameStarted"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_GameStarted" class="expander" data-toggle="collapse">GameStarted</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_GameStarted" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GameStarted</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_IsInitializedSinglePlayerReferences" data-uid="TaleWorlds.CampaignSystem.Campaign.IsInitializedSinglePlayerReferences"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_IsInitializedSinglePlayerReferences" class="expander" data-toggle="collapse">IsInitializedSinglePlayerReferences</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_IsInitializedSinglePlayerReferences" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableField((short)27)]
+public bool IsInitializedSinglePlayerReferences</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_KingdomManager" data-uid="TaleWorlds.CampaignSystem.Campaign.KingdomManager"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_KingdomManager" class="expander" data-toggle="collapse">KingdomManager</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_KingdomManager" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableField((short)65)]
+public KingdomManager KingdomManager</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.KingdomManager.html">KingdomManager</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_LastTimeControlMode" data-uid="TaleWorlds.CampaignSystem.Campaign.LastTimeControlMode"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_LastTimeControlMode" class="expander" data-toggle="collapse">LastTimeControlMode</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_LastTimeControlMode" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableField((short)31)]
+public CampaignTimeControlMode LastTimeControlMode</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.CampaignTimeControlMode.html">CampaignTimeControlMode</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_MainHeroIllDays" data-uid="TaleWorlds.CampaignSystem.Campaign.MainHeroIllDays"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_MainHeroIllDays" class="expander" data-toggle="collapse">MainHeroIllDays</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_MainHeroIllDays" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableField((short)30)]
+public int MainHeroIllDays</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_MaxSettlementX" data-uid="TaleWorlds.CampaignSystem.Campaign.MaxSettlementX"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_MaxSettlementX" class="expander" data-toggle="collapse">MaxSettlementX</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_MaxSettlementX" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MaxSettlementX</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_MaxSettlementY" data-uid="TaleWorlds.CampaignSystem.Campaign.MaxSettlementY"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_MaxSettlementY" class="expander" data-toggle="collapse">MaxSettlementY</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_MaxSettlementY" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MaxSettlementY</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_MinSettlementX" data-uid="TaleWorlds.CampaignSystem.Campaign.MinSettlementX"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_MinSettlementX" class="expander" data-toggle="collapse">MinSettlementX</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_MinSettlementX" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MinSettlementX</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_MinSettlementY" data-uid="TaleWorlds.CampaignSystem.Campaign.MinSettlementY"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_MinSettlementY" class="expander" data-toggle="collapse">MinSettlementY</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_MinSettlementY" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MinSettlementY</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_Options" data-uid="TaleWorlds.CampaignSystem.Campaign.Options"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_Options" class="expander" data-toggle="collapse">Options</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_Options" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableField((short)2)]
+public readonly CampaignOptions Options</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.CampaignOptions.html">CampaignOptions</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_PlayerFormationPreferences" data-uid="TaleWorlds.CampaignSystem.Campaign.PlayerFormationPreferences"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_PlayerFormationPreferences" class="expander" data-toggle="collapse">PlayerFormationPreferences</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_PlayerFormationPreferences" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MBReadOnlyDictionary&lt;CharacterObject, FormationClass&gt; PlayerFormationPreferences</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBReadOnlyDictionary-2.html">MBReadOnlyDictionary</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.CharacterObject.html">CharacterObject</a>, <a class="xref" href="TaleWorlds.Core.FormationClass.html">FormationClass</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_TournamentManager" data-uid="TaleWorlds.CampaignSystem.Campaign.TournamentManager"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_TournamentManager" class="expander" data-toggle="collapse">TournamentManager</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_TournamentManager" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableField((short)13)]
+public ITournamentManager TournamentManager</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.TournamentGames.ITournamentManager.html">ITournamentManager</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_AliveHeroes_" data-uid="TaleWorlds.CampaignSystem.Campaign.AliveHeroes*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_AliveHeroes" data-uid="TaleWorlds.CampaignSystem.Campaign.AliveHeroes"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_AliveHeroes" class="expander" data-toggle="collapse">AliveHeroes</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_AliveHeroes" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MBReadOnlyList&lt;Hero&gt; AliveHeroes { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBReadOnlyList-1.html">MBReadOnlyList</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.Hero.html">Hero</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_AverageDistanceBetweenTwoTowns_" data-uid="TaleWorlds.CampaignSystem.Campaign.AverageDistanceBetweenTwoTowns*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_AverageDistanceBetweenTwoTowns" data-uid="TaleWorlds.CampaignSystem.Campaign.AverageDistanceBetweenTwoTowns"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_AverageDistanceBetweenTwoTowns" class="expander" data-toggle="collapse">AverageDistanceBetweenTwoTowns</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_AverageDistanceBetweenTwoTowns" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float AverageDistanceBetweenTwoTowns { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_BanditParties_" data-uid="TaleWorlds.CampaignSystem.Campaign.BanditParties*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_BanditParties" data-uid="TaleWorlds.CampaignSystem.Campaign.BanditParties"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_BanditParties" class="expander" data-toggle="collapse">BanditParties</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_BanditParties" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MBReadOnlyList&lt;MobileParty&gt; BanditParties { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBReadOnlyList-1.html">MBReadOnlyList</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.Party.MobileParty.html">MobileParty</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_BarterManager_" data-uid="TaleWorlds.CampaignSystem.Campaign.BarterManager*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_BarterManager" data-uid="TaleWorlds.CampaignSystem.Campaign.BarterManager"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_BarterManager" class="expander" data-toggle="collapse">BarterManager</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_BarterManager" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableProperty((short)58)]
+public BarterManager BarterManager { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.BarterSystem.BarterManager.html">BarterManager</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_CameraFollowParty_" data-uid="TaleWorlds.CampaignSystem.Campaign.CameraFollowParty*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_CameraFollowParty" data-uid="TaleWorlds.CampaignSystem.Campaign.CameraFollowParty"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_CameraFollowParty" class="expander" data-toggle="collapse">CameraFollowParty</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_CameraFollowParty" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PartyBase CameraFollowParty { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.Party.PartyBase.html">PartyBase</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_CampaignBehaviorManager_" data-uid="TaleWorlds.CampaignSystem.Campaign.CampaignBehaviorManager*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_CampaignBehaviorManager" data-uid="TaleWorlds.CampaignSystem.Campaign.CampaignBehaviorManager"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_CampaignBehaviorManager" class="expander" data-toggle="collapse">CampaignBehaviorManager</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_CampaignBehaviorManager" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICampaignBehaviorManager CampaignBehaviorManager { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.ICampaignBehaviorManager.html">ICampaignBehaviorManager</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_CampaignDt_" data-uid="TaleWorlds.CampaignSystem.Campaign.CampaignDt*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_CampaignDt" data-uid="TaleWorlds.CampaignSystem.Campaign.CampaignDt"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_CampaignDt" class="expander" data-toggle="collapse">CampaignDt</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_CampaignDt" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float CampaignDt { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_CampaignEntityComponents_" data-uid="TaleWorlds.CampaignSystem.Campaign.CampaignEntityComponents*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_CampaignEntityComponents" data-uid="TaleWorlds.CampaignSystem.Campaign.CampaignEntityComponents"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_CampaignEntityComponents" class="expander" data-toggle="collapse">CampaignEntityComponents</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_CampaignEntityComponents" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;CampaignEntityComponent&gt; CampaignEntityComponents { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.CampaignEntityComponent.html">CampaignEntityComponent</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_CampaignGameLoadingType_" data-uid="TaleWorlds.CampaignSystem.Campaign.CampaignGameLoadingType*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_CampaignGameLoadingType" data-uid="TaleWorlds.CampaignSystem.Campaign.CampaignGameLoadingType"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_CampaignGameLoadingType" class="expander" data-toggle="collapse">CampaignGameLoadingType</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_CampaignGameLoadingType" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Campaign.GameLoadingType CampaignGameLoadingType { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.Campaign.GameLoadingType.html">Campaign.GameLoadingType</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_CampaignInformationManager_" data-uid="TaleWorlds.CampaignSystem.Campaign.CampaignInformationManager*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_CampaignInformationManager" data-uid="TaleWorlds.CampaignSystem.Campaign.CampaignInformationManager"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_CampaignInformationManager" class="expander" data-toggle="collapse">CampaignInformationManager</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_CampaignInformationManager" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableProperty((short)62)]
+public CampaignInformationManager CampaignInformationManager { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.CampaignInformationManager.html">CampaignInformationManager</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_CampaignMapConversationManager_" data-uid="TaleWorlds.CampaignSystem.Campaign.CampaignMapConversationManager*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_CampaignMapConversationManager" data-uid="TaleWorlds.CampaignSystem.Campaign.CampaignMapConversationManager"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_CampaignMapConversationManager" class="expander" data-toggle="collapse">CampaignMapConversationManager</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_CampaignMapConversationManager" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICampaignMapConversation CampaignMapConversationManager { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.Conversation.ICampaignMapConversation.html">ICampaignMapConversation</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_CampaignMissionManager_" data-uid="TaleWorlds.CampaignSystem.Campaign.CampaignMissionManager*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_CampaignMissionManager" data-uid="TaleWorlds.CampaignSystem.Campaign.CampaignMissionManager"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_CampaignMissionManager" class="expander" data-toggle="collapse">CampaignMissionManager</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_CampaignMissionManager" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICampaignMissionManager CampaignMissionManager { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.ICampaignMissionManager.html">ICampaignMissionManager</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_CampaignObjectManager_" data-uid="TaleWorlds.CampaignSystem.Campaign.CampaignObjectManager*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_CampaignObjectManager" data-uid="TaleWorlds.CampaignSystem.Campaign.CampaignObjectManager"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_CampaignObjectManager" class="expander" data-toggle="collapse">CampaignObjectManager</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_CampaignObjectManager" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableProperty((short)211)]
+public CampaignObjectManager CampaignObjectManager { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.CampaignObjectManager.html">CampaignObjectManager</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_CampaignStartTime_" data-uid="TaleWorlds.CampaignSystem.Campaign.CampaignStartTime*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_CampaignStartTime" data-uid="TaleWorlds.CampaignSystem.Campaign.CampaignStartTime"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_CampaignStartTime" class="expander" data-toggle="collapse">CampaignStartTime</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_CampaignStartTime" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableProperty((short)36)]
+public CampaignTime CampaignStartTime { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.CampaignTime.html">CampaignTime</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_CaravanParties_" data-uid="TaleWorlds.CampaignSystem.Campaign.CaravanParties*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_CaravanParties" data-uid="TaleWorlds.CampaignSystem.Campaign.CaravanParties"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_CaravanParties" class="expander" data-toggle="collapse">CaravanParties</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_CaravanParties" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MBReadOnlyList&lt;MobileParty&gt; CaravanParties { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBReadOnlyList-1.html">MBReadOnlyList</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.Party.MobileParty.html">MobileParty</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_CharacterRelationManager_" data-uid="TaleWorlds.CampaignSystem.Campaign.CharacterRelationManager*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_CharacterRelationManager" data-uid="TaleWorlds.CampaignSystem.Campaign.CharacterRelationManager"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_CharacterRelationManager" class="expander" data-toggle="collapse">CharacterRelationManager</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_CharacterRelationManager" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableProperty((short)12)]
+public CharacterRelationManager CharacterRelationManager { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.CharacterRelationManager.html">CharacterRelationManager</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_Characters_" data-uid="TaleWorlds.CampaignSystem.Campaign.Characters*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_Characters" data-uid="TaleWorlds.CampaignSystem.Campaign.Characters"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_Characters" class="expander" data-toggle="collapse">Characters</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_Characters" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MBReadOnlyList&lt;CharacterObject&gt; Characters { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBReadOnlyList-1.html">MBReadOnlyList</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.CharacterObject.html">CharacterObject</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_Clans_" data-uid="TaleWorlds.CampaignSystem.Campaign.Clans*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_Clans" data-uid="TaleWorlds.CampaignSystem.Campaign.Clans"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_Clans" class="expander" data-toggle="collapse">Clans</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_Clans" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MBReadOnlyList&lt;Clan&gt; Clans { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBReadOnlyList-1.html">MBReadOnlyList</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.Clan.html">Clan</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_CommonAreaParties_" data-uid="TaleWorlds.CampaignSystem.Campaign.CommonAreaParties*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_CommonAreaParties" data-uid="TaleWorlds.CampaignSystem.Campaign.CommonAreaParties"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_CommonAreaParties" class="expander" data-toggle="collapse">CommonAreaParties</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_CommonAreaParties" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MBReadOnlyList&lt;MobileParty&gt; CommonAreaParties { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBReadOnlyList-1.html">MBReadOnlyList</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.Party.MobileParty.html">MobileParty</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_Concepts_" data-uid="TaleWorlds.CampaignSystem.Campaign.Concepts*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_Concepts" data-uid="TaleWorlds.CampaignSystem.Campaign.Concepts"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_Concepts" class="expander" data-toggle="collapse">Concepts</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_Concepts" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MBReadOnlyList&lt;Concept&gt; Concepts { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBReadOnlyList-1.html">MBReadOnlyList</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.Concept.html">Concept</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_ConversationManager_" data-uid="TaleWorlds.CampaignSystem.Campaign.ConversationManager*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_ConversationManager" data-uid="TaleWorlds.CampaignSystem.Campaign.ConversationManager"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_ConversationManager" class="expander" data-toggle="collapse">ConversationManager</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_ConversationManager" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConversationManager ConversationManager { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.Conversation.ConversationManager.html">ConversationManager</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_Current_" data-uid="TaleWorlds.CampaignSystem.Campaign.Current*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_Current" data-uid="TaleWorlds.CampaignSystem.Campaign.Current"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_Current" class="expander" data-toggle="collapse">Current</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_Current" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Campaign Current { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.Campaign.html">Campaign</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_CurrentMenuContext_" data-uid="TaleWorlds.CampaignSystem.Campaign.CurrentMenuContext*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_CurrentMenuContext" data-uid="TaleWorlds.CampaignSystem.Campaign.CurrentMenuContext"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_CurrentMenuContext" class="expander" data-toggle="collapse">CurrentMenuContext</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_CurrentMenuContext" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MenuContext CurrentMenuContext { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.GameState.MenuContext.html">MenuContext</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_CurrentTime_" data-uid="TaleWorlds.CampaignSystem.Campaign.CurrentTime*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_CurrentTime" data-uid="TaleWorlds.CampaignSystem.Campaign.CurrentTime"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_CurrentTime" class="expander" data-toggle="collapse">CurrentTime</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_CurrentTime" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float CurrentTime { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_CustomParties_" data-uid="TaleWorlds.CampaignSystem.Campaign.CustomParties*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_CustomParties" data-uid="TaleWorlds.CampaignSystem.Campaign.CustomParties"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_CustomParties" class="expander" data-toggle="collapse">CustomParties</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_CustomParties" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MBReadOnlyList&lt;MobileParty&gt; CustomParties { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBReadOnlyList-1.html">MBReadOnlyList</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.Party.MobileParty.html">MobileParty</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_DeadOrDisabledHeroes_" data-uid="TaleWorlds.CampaignSystem.Campaign.DeadOrDisabledHeroes*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_DeadOrDisabledHeroes" data-uid="TaleWorlds.CampaignSystem.Campaign.DeadOrDisabledHeroes"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_DeadOrDisabledHeroes" class="expander" data-toggle="collapse">DeadOrDisabledHeroes</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_DeadOrDisabledHeroes" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MBReadOnlyList&lt;Hero&gt; DeadOrDisabledHeroes { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBReadOnlyList-1.html">MBReadOnlyList</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.Hero.html">Hero</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_DefaultBuildingTypes_" data-uid="TaleWorlds.CampaignSystem.Campaign.DefaultBuildingTypes*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_DefaultBuildingTypes" data-uid="TaleWorlds.CampaignSystem.Campaign.DefaultBuildingTypes"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_DefaultBuildingTypes" class="expander" data-toggle="collapse">DefaultBuildingTypes</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_DefaultBuildingTypes" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DefaultBuildingTypes DefaultBuildingTypes { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.Settlements.Buildings.DefaultBuildingTypes.html">DefaultBuildingTypes</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_DefaultFeats_" data-uid="TaleWorlds.CampaignSystem.Campaign.DefaultFeats*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_DefaultFeats" data-uid="TaleWorlds.CampaignSystem.Campaign.DefaultFeats"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_DefaultFeats" class="expander" data-toggle="collapse">DefaultFeats</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_DefaultFeats" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DefaultCulturalFeats DefaultFeats { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.CharacterDevelopment.DefaultCulturalFeats.html">DefaultCulturalFeats</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_DefaultIssueEffects_" data-uid="TaleWorlds.CampaignSystem.Campaign.DefaultIssueEffects*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_DefaultIssueEffects" data-uid="TaleWorlds.CampaignSystem.Campaign.DefaultIssueEffects"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_DefaultIssueEffects" class="expander" data-toggle="collapse">DefaultIssueEffects</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_DefaultIssueEffects" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DefaultIssueEffects DefaultIssueEffects { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.Issues.DefaultIssueEffects.html">DefaultIssueEffects</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_DefaultPerks_" data-uid="TaleWorlds.CampaignSystem.Campaign.DefaultPerks*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_DefaultPerks" data-uid="TaleWorlds.CampaignSystem.Campaign.DefaultPerks"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_DefaultPerks" class="expander" data-toggle="collapse">DefaultPerks</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_DefaultPerks" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DefaultPerks DefaultPerks { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.CharacterDevelopment.DefaultPerks.html">DefaultPerks</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_DefaultPolicies_" data-uid="TaleWorlds.CampaignSystem.Campaign.DefaultPolicies*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_DefaultPolicies" data-uid="TaleWorlds.CampaignSystem.Campaign.DefaultPolicies"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_DefaultPolicies" class="expander" data-toggle="collapse">DefaultPolicies</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_DefaultPolicies" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DefaultPolicies DefaultPolicies { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.DefaultPolicies.html">DefaultPolicies</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_DefaultSiegeStrategies_" data-uid="TaleWorlds.CampaignSystem.Campaign.DefaultSiegeStrategies*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_DefaultSiegeStrategies" data-uid="TaleWorlds.CampaignSystem.Campaign.DefaultSiegeStrategies"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_DefaultSiegeStrategies" class="expander" data-toggle="collapse">DefaultSiegeStrategies</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_DefaultSiegeStrategies" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DefaultSiegeStrategies DefaultSiegeStrategies { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.Siege.DefaultSiegeStrategies.html">DefaultSiegeStrategies</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_DefaultSkillEffects_" data-uid="TaleWorlds.CampaignSystem.Campaign.DefaultSkillEffects*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_DefaultSkillEffects" data-uid="TaleWorlds.CampaignSystem.Campaign.DefaultSkillEffects"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_DefaultSkillEffects" class="expander" data-toggle="collapse">DefaultSkillEffects</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_DefaultSkillEffects" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DefaultSkillEffects DefaultSkillEffects { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.DefaultSkillEffects.html">DefaultSkillEffects</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_DefaultStartingPosition_" data-uid="TaleWorlds.CampaignSystem.Campaign.DefaultStartingPosition*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_DefaultStartingPosition" data-uid="TaleWorlds.CampaignSystem.Campaign.DefaultStartingPosition"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_DefaultStartingPosition" class="expander" data-toggle="collapse">DefaultStartingPosition</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_DefaultStartingPosition" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vec2 DefaultStartingPosition { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.Vec2.html">Vec2</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_DefaultTraits_" data-uid="TaleWorlds.CampaignSystem.Campaign.DefaultTraits*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_DefaultTraits" data-uid="TaleWorlds.CampaignSystem.Campaign.DefaultTraits"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_DefaultTraits" class="expander" data-toggle="collapse">DefaultTraits</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_DefaultTraits" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DefaultTraits DefaultTraits { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.CharacterDevelopment.DefaultTraits.html">DefaultTraits</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_DefaultVillageTypes_" data-uid="TaleWorlds.CampaignSystem.Campaign.DefaultVillageTypes*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_DefaultVillageTypes" data-uid="TaleWorlds.CampaignSystem.Campaign.DefaultVillageTypes"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_DefaultVillageTypes" class="expander" data-toggle="collapse">DefaultVillageTypes</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_DefaultVillageTypes" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DefaultVillageTypes DefaultVillageTypes { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.Settlements.DefaultVillageTypes.html">DefaultVillageTypes</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_DesertionEnabled_" data-uid="TaleWorlds.CampaignSystem.Campaign.DesertionEnabled*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_DesertionEnabled" data-uid="TaleWorlds.CampaignSystem.Campaign.DesertionEnabled"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_DesertionEnabled" class="expander" data-toggle="collapse">DesertionEnabled</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_DesertionEnabled" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableProperty((short)70)]
+public bool DesertionEnabled { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_DetectedTracks_" data-uid="TaleWorlds.CampaignSystem.Campaign.DetectedTracks*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_DetectedTracks" data-uid="TaleWorlds.CampaignSystem.Campaign.DetectedTracks"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_DetectedTracks" class="expander" data-toggle="collapse">DetectedTracks</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_DetectedTracks" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;Track&gt; DetectedTracks { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.Track.html">Track</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_EncyclopediaManager_" data-uid="TaleWorlds.CampaignSystem.Campaign.EncyclopediaManager*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_EncyclopediaManager" data-uid="TaleWorlds.CampaignSystem.Campaign.EncyclopediaManager"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_EncyclopediaManager" class="expander" data-toggle="collapse">EncyclopediaManager</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_EncyclopediaManager" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EncyclopediaManager EncyclopediaManager { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.Encyclopedia.EncyclopediaManager.html">EncyclopediaManager</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_FactionManager_" data-uid="TaleWorlds.CampaignSystem.Campaign.FactionManager*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_FactionManager" data-uid="TaleWorlds.CampaignSystem.Campaign.FactionManager"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_FactionManager" class="expander" data-toggle="collapse">FactionManager</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_FactionManager" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableProperty((short)11)]
+public FactionManager FactionManager { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.FactionManager.html">FactionManager</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_Factions_" data-uid="TaleWorlds.CampaignSystem.Campaign.Factions*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_Factions" data-uid="TaleWorlds.CampaignSystem.Campaign.Factions"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_Factions" class="expander" data-toggle="collapse">Factions</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_Factions" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IFaction&gt; Factions { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.IFaction.html">IFaction</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_GameMenuCallbackManager_" data-uid="TaleWorlds.CampaignSystem.Campaign.GameMenuCallbackManager*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_GameMenuCallbackManager" data-uid="TaleWorlds.CampaignSystem.Campaign.GameMenuCallbackManager"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_GameMenuCallbackManager" class="expander" data-toggle="collapse">GameMenuCallbackManager</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_GameMenuCallbackManager" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameMenuCallbackManager GameMenuCallbackManager { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.GameMenus.GameMenuCallbackManager.html">GameMenuCallbackManager</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_GameMenuManager_" data-uid="TaleWorlds.CampaignSystem.Campaign.GameMenuManager*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_GameMenuManager" data-uid="TaleWorlds.CampaignSystem.Campaign.GameMenuManager"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_GameMenuManager" class="expander" data-toggle="collapse">GameMenuManager</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_GameMenuManager" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameMenuManager GameMenuManager { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.GameMenus.GameMenuManager.html">GameMenuManager</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_GameMode_" data-uid="TaleWorlds.CampaignSystem.Campaign.GameMode*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_GameMode" data-uid="TaleWorlds.CampaignSystem.Campaign.GameMode"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_GameMode" class="expander" data-toggle="collapse">GameMode</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_GameMode" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableProperty((short)37)]
+public CampaignGameMode GameMode { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.CampaignGameMode.html">CampaignGameMode</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_GarrisonParties_" data-uid="TaleWorlds.CampaignSystem.Campaign.GarrisonParties*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_GarrisonParties" data-uid="TaleWorlds.CampaignSystem.Campaign.GarrisonParties"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_GarrisonParties" class="expander" data-toggle="collapse">GarrisonParties</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_GarrisonParties" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MBReadOnlyList&lt;MobileParty&gt; GarrisonParties { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBReadOnlyList-1.html">MBReadOnlyList</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.Party.MobileParty.html">MobileParty</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_HumanChildMonster_" data-uid="TaleWorlds.CampaignSystem.Campaign.HumanChildMonster*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_HumanChildMonster" data-uid="TaleWorlds.CampaignSystem.Campaign.HumanChildMonster"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_HumanChildMonster" class="expander" data-toggle="collapse">HumanChildMonster</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_HumanChildMonster" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Monster HumanChildMonster { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Core.Monster.html">Monster</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_HumanMonsterMap_" data-uid="TaleWorlds.CampaignSystem.Campaign.HumanMonsterMap*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_HumanMonsterMap" data-uid="TaleWorlds.CampaignSystem.Campaign.HumanMonsterMap"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_HumanMonsterMap" class="expander" data-toggle="collapse">HumanMonsterMap</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_HumanMonsterMap" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Monster HumanMonsterMap { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Core.Monster.html">Monster</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_HumanMonsterSettlement_" data-uid="TaleWorlds.CampaignSystem.Campaign.HumanMonsterSettlement*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_HumanMonsterSettlement" data-uid="TaleWorlds.CampaignSystem.Campaign.HumanMonsterSettlement"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_HumanMonsterSettlement" class="expander" data-toggle="collapse">HumanMonsterSettlement</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_HumanMonsterSettlement" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Monster HumanMonsterSettlement { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Core.Monster.html">Monster</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_HumanMonsterSettlementFast_" data-uid="TaleWorlds.CampaignSystem.Campaign.HumanMonsterSettlementFast*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_HumanMonsterSettlementFast" data-uid="TaleWorlds.CampaignSystem.Campaign.HumanMonsterSettlementFast"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_HumanMonsterSettlementFast" class="expander" data-toggle="collapse">HumanMonsterSettlementFast</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_HumanMonsterSettlementFast" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Monster HumanMonsterSettlementFast { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Core.Monster.html">Monster</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_HumanMonsterSettlementSlow_" data-uid="TaleWorlds.CampaignSystem.Campaign.HumanMonsterSettlementSlow*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_HumanMonsterSettlementSlow" data-uid="TaleWorlds.CampaignSystem.Campaign.HumanMonsterSettlementSlow"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_HumanMonsterSettlementSlow" class="expander" data-toggle="collapse">HumanMonsterSettlementSlow</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_HumanMonsterSettlementSlow" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Monster HumanMonsterSettlementSlow { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Core.Monster.html">Monster</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_InventoryManager_" data-uid="TaleWorlds.CampaignSystem.Campaign.InventoryManager*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_InventoryManager" data-uid="TaleWorlds.CampaignSystem.Campaign.InventoryManager"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_InventoryManager" class="expander" data-toggle="collapse">InventoryManager</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_InventoryManager" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InventoryManager InventoryManager { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.Inventory.InventoryManager.html">InventoryManager</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_IsBannerEditorEnabled_" data-uid="TaleWorlds.CampaignSystem.Campaign.IsBannerEditorEnabled*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_IsBannerEditorEnabled" data-uid="TaleWorlds.CampaignSystem.Campaign.IsBannerEditorEnabled"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_IsBannerEditorEnabled" class="expander" data-toggle="collapse">IsBannerEditorEnabled</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_IsBannerEditorEnabled" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableProperty((short)4)]
+public bool IsBannerEditorEnabled { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_IsCraftingEnabled_" data-uid="TaleWorlds.CampaignSystem.Campaign.IsCraftingEnabled*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_IsCraftingEnabled" data-uid="TaleWorlds.CampaignSystem.Campaign.IsCraftingEnabled"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_IsCraftingEnabled" class="expander" data-toggle="collapse">IsCraftingEnabled</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_IsCraftingEnabled" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableProperty((short)3)]
+public bool IsCraftingEnabled { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_IsDay_" data-uid="TaleWorlds.CampaignSystem.Campaign.IsDay*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_IsDay" data-uid="TaleWorlds.CampaignSystem.Campaign.IsDay"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_IsDay" class="expander" data-toggle="collapse">IsDay</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_IsDay" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDay { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_IsDevelopment_" data-uid="TaleWorlds.CampaignSystem.Campaign.IsDevelopment*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_IsDevelopment" data-uid="TaleWorlds.CampaignSystem.Campaign.IsDevelopment"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_IsDevelopment" class="expander" data-toggle="collapse">IsDevelopment</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_IsDevelopment" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsDevelopment { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TaleWorlds.Core.GameType.html#TaleWorlds_Core_GameType_IsDevelopment">GameType.IsDevelopment</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_IsFaceGenEnabled_" data-uid="TaleWorlds.CampaignSystem.Campaign.IsFaceGenEnabled*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_IsFaceGenEnabled" data-uid="TaleWorlds.CampaignSystem.Campaign.IsFaceGenEnabled"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_IsFaceGenEnabled" class="expander" data-toggle="collapse">IsFaceGenEnabled</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_IsFaceGenEnabled" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableProperty((short)5)]
+public bool IsFaceGenEnabled { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_IsInventoryAccessibleAtMission_" data-uid="TaleWorlds.CampaignSystem.Campaign.IsInventoryAccessibleAtMission*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_IsInventoryAccessibleAtMission" data-uid="TaleWorlds.CampaignSystem.Campaign.IsInventoryAccessibleAtMission"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_IsInventoryAccessibleAtMission" class="expander" data-toggle="collapse">IsInventoryAccessibleAtMission</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_IsInventoryAccessibleAtMission" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsInventoryAccessibleAtMission { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TaleWorlds.Core.GameType.html#TaleWorlds_Core_GameType_IsInventoryAccessibleAtMission">GameType.IsInventoryAccessibleAtMission</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_IsMainHeroDisguised_" data-uid="TaleWorlds.CampaignSystem.Campaign.IsMainHeroDisguised*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_IsMainHeroDisguised" data-uid="TaleWorlds.CampaignSystem.Campaign.IsMainHeroDisguised"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_IsMainHeroDisguised" class="expander" data-toggle="collapse">IsMainHeroDisguised</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_IsMainHeroDisguised" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableProperty((short)69)]
+public bool IsMainHeroDisguised { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_IsMainPartyWaiting_" data-uid="TaleWorlds.CampaignSystem.Campaign.IsMainPartyWaiting*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_IsMainPartyWaiting" data-uid="TaleWorlds.CampaignSystem.Campaign.IsMainPartyWaiting"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_IsMainPartyWaiting" class="expander" data-toggle="collapse">IsMainPartyWaiting</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_IsMainPartyWaiting" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsMainPartyWaiting { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_IsMapTooltipLongForm_" data-uid="TaleWorlds.CampaignSystem.Campaign.IsMapTooltipLongForm*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_IsMapTooltipLongForm" data-uid="TaleWorlds.CampaignSystem.Campaign.IsMapTooltipLongForm"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_IsMapTooltipLongForm" class="expander" data-toggle="collapse">IsMapTooltipLongForm</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_IsMapTooltipLongForm" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsMapTooltipLongForm { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_IsNight_" data-uid="TaleWorlds.CampaignSystem.Campaign.IsNight*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_IsNight" data-uid="TaleWorlds.CampaignSystem.Campaign.IsNight"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_IsNight" class="expander" data-toggle="collapse">IsNight</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_IsNight" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsNight { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_IsPartyWindowAccessibleAtMission_" data-uid="TaleWorlds.CampaignSystem.Campaign.IsPartyWindowAccessibleAtMission*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_IsPartyWindowAccessibleAtMission" data-uid="TaleWorlds.CampaignSystem.Campaign.IsPartyWindowAccessibleAtMission"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_IsPartyWindowAccessibleAtMission" class="expander" data-toggle="collapse">IsPartyWindowAccessibleAtMission</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_IsPartyWindowAccessibleAtMission" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsPartyWindowAccessibleAtMission { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TaleWorlds.Core.GameType.html#TaleWorlds_Core_GameType_IsPartyWindowAccessibleAtMission">GameType.IsPartyWindowAccessibleAtMission</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_IssueManager_" data-uid="TaleWorlds.CampaignSystem.Campaign.IssueManager*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_IssueManager" data-uid="TaleWorlds.CampaignSystem.Campaign.IssueManager"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_IssueManager" class="expander" data-toggle="collapse">IssueManager</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_IssueManager" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableProperty((short)9)]
+public IssueManager IssueManager { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.Issues.IssueManager.html">IssueManager</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_ItemModifierGroups_" data-uid="TaleWorlds.CampaignSystem.Campaign.ItemModifierGroups*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_ItemModifierGroups" data-uid="TaleWorlds.CampaignSystem.Campaign.ItemModifierGroups"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_ItemModifierGroups" class="expander" data-toggle="collapse">ItemModifierGroups</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_ItemModifierGroups" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MBReadOnlyList&lt;ItemModifierGroup&gt; ItemModifierGroups { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBReadOnlyList-1.html">MBReadOnlyList</a>&lt;<a class="xref" href="TaleWorlds.Core.ItemModifierGroup.html">ItemModifierGroup</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_ItemModifiers_" data-uid="TaleWorlds.CampaignSystem.Campaign.ItemModifiers*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_ItemModifiers" data-uid="TaleWorlds.CampaignSystem.Campaign.ItemModifiers"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_ItemModifiers" class="expander" data-toggle="collapse">ItemModifiers</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_ItemModifiers" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MBReadOnlyList&lt;ItemModifier&gt; ItemModifiers { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBReadOnlyList-1.html">MBReadOnlyList</a>&lt;<a class="xref" href="TaleWorlds.Core.ItemModifier.html">ItemModifier</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_Kingdoms_" data-uid="TaleWorlds.CampaignSystem.Campaign.Kingdoms*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_Kingdoms" data-uid="TaleWorlds.CampaignSystem.Campaign.Kingdoms"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_Kingdoms" class="expander" data-toggle="collapse">Kingdoms</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_Kingdoms" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MBReadOnlyList&lt;Kingdom&gt; Kingdoms { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBReadOnlyList-1.html">MBReadOnlyList</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.Kingdom.html">Kingdom</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_LogEntryHistory_" data-uid="TaleWorlds.CampaignSystem.Campaign.LogEntryHistory*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_LogEntryHistory" data-uid="TaleWorlds.CampaignSystem.Campaign.LogEntryHistory"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_LogEntryHistory" class="expander" data-toggle="collapse">LogEntryHistory</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_LogEntryHistory" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LogEntryHistory LogEntryHistory { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.LogEntries.LogEntryHistory.html">LogEntryHistory</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_LordParties_" data-uid="TaleWorlds.CampaignSystem.Campaign.LordParties*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_LordParties" data-uid="TaleWorlds.CampaignSystem.Campaign.LordParties"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_LordParties" class="expander" data-toggle="collapse">LordParties</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_LordParties" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MBReadOnlyList&lt;MobileParty&gt; LordParties { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBReadOnlyList-1.html">MBReadOnlyList</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.Party.MobileParty.html">MobileParty</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_MainParty_" data-uid="TaleWorlds.CampaignSystem.Campaign.MainParty*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_MainParty" data-uid="TaleWorlds.CampaignSystem.Campaign.MainParty"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_MainParty" class="expander" data-toggle="collapse">MainParty</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_MainParty" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableProperty((short)60)]
+public MobileParty MainParty { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.Party.MobileParty.html">MobileParty</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_MapDiagonal_" data-uid="TaleWorlds.CampaignSystem.Campaign.MapDiagonal*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_MapDiagonal" data-uid="TaleWorlds.CampaignSystem.Campaign.MapDiagonal"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_MapDiagonal" class="expander" data-toggle="collapse">MapDiagonal</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_MapDiagonal" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float MapDiagonal { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_MapDiagonalSquared_" data-uid="TaleWorlds.CampaignSystem.Campaign.MapDiagonalSquared*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_MapDiagonalSquared" data-uid="TaleWorlds.CampaignSystem.Campaign.MapDiagonalSquared"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_MapDiagonalSquared" class="expander" data-toggle="collapse">MapDiagonalSquared</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_MapDiagonalSquared" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float MapDiagonalSquared { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_MapEventManager_" data-uid="TaleWorlds.CampaignSystem.Campaign.MapEventManager*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_MapEventManager" data-uid="TaleWorlds.CampaignSystem.Campaign.MapEventManager"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_MapEventManager" class="expander" data-toggle="collapse">MapEventManager</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_MapEventManager" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableProperty((short)41)]
+public MapEventManager MapEventManager { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.MapEvents.MapEventManager.html">MapEventManager</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_MapMaximumHeight_" data-uid="TaleWorlds.CampaignSystem.Campaign.MapMaximumHeight*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_MapMaximumHeight" data-uid="TaleWorlds.CampaignSystem.Campaign.MapMaximumHeight"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_MapMaximumHeight" class="expander" data-toggle="collapse">MapMaximumHeight</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_MapMaximumHeight" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float MapMaximumHeight { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_MapMaximumPosition_" data-uid="TaleWorlds.CampaignSystem.Campaign.MapMaximumPosition*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_MapMaximumPosition" data-uid="TaleWorlds.CampaignSystem.Campaign.MapMaximumPosition"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_MapMaximumPosition" class="expander" data-toggle="collapse">MapMaximumPosition</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_MapMaximumPosition" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vec2 MapMaximumPosition { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.Vec2.html">Vec2</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_MapMinimumPosition_" data-uid="TaleWorlds.CampaignSystem.Campaign.MapMinimumPosition*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_MapMinimumPosition" data-uid="TaleWorlds.CampaignSystem.Campaign.MapMinimumPosition"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_MapMinimumPosition" class="expander" data-toggle="collapse">MapMinimumPosition</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_MapMinimumPosition" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vec2 MapMinimumPosition { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.Vec2.html">Vec2</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_MapSceneCreator_" data-uid="TaleWorlds.CampaignSystem.Campaign.MapSceneCreator*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_MapSceneCreator" data-uid="TaleWorlds.CampaignSystem.Campaign.MapSceneCreator"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_MapSceneCreator" class="expander" data-toggle="collapse">MapSceneCreator</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_MapSceneCreator" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IMapSceneCreator MapSceneCreator { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.Map.IMapSceneCreator.html">IMapSceneCreator</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_MapSceneWrapper_" data-uid="TaleWorlds.CampaignSystem.Campaign.MapSceneWrapper*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_MapSceneWrapper" data-uid="TaleWorlds.CampaignSystem.Campaign.MapSceneWrapper"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_MapSceneWrapper" class="expander" data-toggle="collapse">MapSceneWrapper</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_MapSceneWrapper" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IMapScene MapSceneWrapper { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.Map.IMapScene.html">IMapScene</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_MapStateData_" data-uid="TaleWorlds.CampaignSystem.Campaign.MapStateData*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_MapStateData" data-uid="TaleWorlds.CampaignSystem.Campaign.MapStateData"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_MapStateData" class="expander" data-toggle="collapse">MapStateData</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_MapStateData" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableProperty((short)28)]
+public MapStateData MapStateData { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.GameState.MapStateData.html">MapStateData</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_MaximumDistanceBetweenTwoSettlements_" data-uid="TaleWorlds.CampaignSystem.Campaign.MaximumDistanceBetweenTwoSettlements*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_MaximumDistanceBetweenTwoSettlements" data-uid="TaleWorlds.CampaignSystem.Campaign.MaximumDistanceBetweenTwoSettlements"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_MaximumDistanceBetweenTwoSettlements" class="expander" data-toggle="collapse">MaximumDistanceBetweenTwoSettlements</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_MaximumDistanceBetweenTwoSettlements" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float MaximumDistanceBetweenTwoSettlements { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_MilitiaParties_" data-uid="TaleWorlds.CampaignSystem.Campaign.MilitiaParties*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_MilitiaParties" data-uid="TaleWorlds.CampaignSystem.Campaign.MilitiaParties"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_MilitiaParties" class="expander" data-toggle="collapse">MilitiaParties</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_MilitiaParties" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MBReadOnlyList&lt;MobileParty&gt; MilitiaParties { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBReadOnlyList-1.html">MBReadOnlyList</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.Party.MobileParty.html">MobileParty</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_MobileParties_" data-uid="TaleWorlds.CampaignSystem.Campaign.MobileParties*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_MobileParties" data-uid="TaleWorlds.CampaignSystem.Campaign.MobileParties"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_MobileParties" class="expander" data-toggle="collapse">MobileParties</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_MobileParties" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MBReadOnlyList&lt;MobileParty&gt; MobileParties { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBReadOnlyList-1.html">MBReadOnlyList</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.Party.MobileParty.html">MobileParty</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_Models_" data-uid="TaleWorlds.CampaignSystem.Campaign.Models*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_Models" data-uid="TaleWorlds.CampaignSystem.Campaign.Models"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_Models" class="expander" data-toggle="collapse">Models</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_Models" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameModels Models { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.GameModels.html">GameModels</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_NewGameVersion_" data-uid="TaleWorlds.CampaignSystem.Campaign.NewGameVersion*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_NewGameVersion" data-uid="TaleWorlds.CampaignSystem.Campaign.NewGameVersion"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_NewGameVersion" class="expander" data-toggle="collapse">NewGameVersion</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_NewGameVersion" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string NewGameVersion { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_PartiesWithoutPartyComponent_" data-uid="TaleWorlds.CampaignSystem.Campaign.PartiesWithoutPartyComponent*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_PartiesWithoutPartyComponent" data-uid="TaleWorlds.CampaignSystem.Campaign.PartiesWithoutPartyComponent"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_PartiesWithoutPartyComponent" class="expander" data-toggle="collapse">PartiesWithoutPartyComponent</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_PartiesWithoutPartyComponent" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MBReadOnlyList&lt;MobileParty&gt; PartiesWithoutPartyComponent { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBReadOnlyList-1.html">MBReadOnlyList</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.Party.MobileParty.html">MobileParty</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_PartyScreenManager_" data-uid="TaleWorlds.CampaignSystem.Campaign.PartyScreenManager*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_PartyScreenManager" data-uid="TaleWorlds.CampaignSystem.Campaign.PartyScreenManager"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_PartyScreenManager" class="expander" data-toggle="collapse">PartyScreenManager</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_PartyScreenManager" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PartyScreenManager PartyScreenManager { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.Party.PartyScreenManager.html">PartyScreenManager</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_PartyUpgrader_" data-uid="TaleWorlds.CampaignSystem.Campaign.PartyUpgrader*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_PartyUpgrader" data-uid="TaleWorlds.CampaignSystem.Campaign.PartyUpgrader"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_PartyUpgrader" class="expander" data-toggle="collapse">PartyUpgrader</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_PartyUpgrader" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PartyUpgrader PartyUpgrader { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.Party.PartyUpgrader.html">PartyUpgrader</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_PlayerCaptivity_" data-uid="TaleWorlds.CampaignSystem.Campaign.PlayerCaptivity*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_PlayerCaptivity" data-uid="TaleWorlds.CampaignSystem.Campaign.PlayerCaptivity"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_PlayerCaptivity" class="expander" data-toggle="collapse">PlayerCaptivity</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_PlayerCaptivity" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableProperty((short)16)]
+public PlayerCaptivity PlayerCaptivity { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.PlayerCaptivity.html">PlayerCaptivity</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_PlayerEncounter_" data-uid="TaleWorlds.CampaignSystem.Campaign.PlayerEncounter*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_PlayerEncounter" data-uid="TaleWorlds.CampaignSystem.Campaign.PlayerEncounter"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_PlayerEncounter" class="expander" data-toggle="collapse">PlayerEncounter</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_PlayerEncounter" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableProperty((short)54)]
+public PlayerEncounter PlayerEncounter { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.Encounters.PlayerEncounter.html">PlayerEncounter</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_PlayerTraitDeveloper_" data-uid="TaleWorlds.CampaignSystem.Campaign.PlayerTraitDeveloper*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_PlayerTraitDeveloper" data-uid="TaleWorlds.CampaignSystem.Campaign.PlayerTraitDeveloper"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_PlayerTraitDeveloper" class="expander" data-toggle="collapse">PlayerTraitDeveloper</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_PlayerTraitDeveloper" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableProperty((short)68)]
+public HeroTraitDeveloper PlayerTraitDeveloper { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.CharacterDevelopment.HeroTraitDeveloper.html">HeroTraitDeveloper</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_PlayerUpdateTracker_" data-uid="TaleWorlds.CampaignSystem.Campaign.PlayerUpdateTracker*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_PlayerUpdateTracker" data-uid="TaleWorlds.CampaignSystem.Campaign.PlayerUpdateTracker"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_PlayerUpdateTracker" class="expander" data-toggle="collapse">PlayerUpdateTracker</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_PlayerUpdateTracker" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerUpdateTracker PlayerUpdateTracker { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.PlayerUpdateTracker.html">PlayerUpdateTracker</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_PreviouslyUsedModules_" data-uid="TaleWorlds.CampaignSystem.Campaign.PreviouslyUsedModules*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_PreviouslyUsedModules" data-uid="TaleWorlds.CampaignSystem.Campaign.PreviouslyUsedModules"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_PreviouslyUsedModules" class="expander" data-toggle="collapse">PreviouslyUsedModules</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_PreviouslyUsedModules" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;string&gt; PreviouslyUsedModules { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_QuestManager_" data-uid="TaleWorlds.CampaignSystem.Campaign.QuestManager*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_QuestManager" data-uid="TaleWorlds.CampaignSystem.Campaign.QuestManager"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_QuestManager" class="expander" data-toggle="collapse">QuestManager</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_QuestManager" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableProperty((short)8)]
+public QuestManager QuestManager { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.QuestManager.html">QuestManager</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_Romance_" data-uid="TaleWorlds.CampaignSystem.Campaign.Romance*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_Romance" data-uid="TaleWorlds.CampaignSystem.Campaign.Romance"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_Romance" class="expander" data-toggle="collapse">Romance</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_Romance" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableProperty((short)14)]
+public Romance Romance { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.Romance.html">Romance</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_SandBoxManager_" data-uid="TaleWorlds.CampaignSystem.Campaign.SandBoxManager*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_SandBoxManager" data-uid="TaleWorlds.CampaignSystem.Campaign.SandBoxManager"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_SandBoxManager" class="expander" data-toggle="collapse">SandBoxManager</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_SandBoxManager" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SandBoxManager SandBoxManager { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.SandBoxManager.html">SandBoxManager</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_SaveHandler_" data-uid="TaleWorlds.CampaignSystem.Campaign.SaveHandler*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_SaveHandler" data-uid="TaleWorlds.CampaignSystem.Campaign.SaveHandler"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_SaveHandler" class="expander" data-toggle="collapse">SaveHandler</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_SaveHandler" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SaveHandler SaveHandler { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.SaveHandler.html">SaveHandler</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_Settlements_" data-uid="TaleWorlds.CampaignSystem.Campaign.Settlements*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_Settlements" data-uid="TaleWorlds.CampaignSystem.Campaign.Settlements"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_Settlements" class="expander" data-toggle="collapse">Settlements</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_Settlements" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MBReadOnlyList&lt;Settlement&gt; Settlements { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBReadOnlyList-1.html">MBReadOnlyList</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.Settlements.Settlement.html">Settlement</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_SiegeEventManager_" data-uid="TaleWorlds.CampaignSystem.Campaign.SiegeEventManager*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_SiegeEventManager" data-uid="TaleWorlds.CampaignSystem.Campaign.SiegeEventManager"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_SiegeEventManager" class="expander" data-toggle="collapse">SiegeEventManager</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_SiegeEventManager" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableProperty((short)40)]
+public SiegeEventManager SiegeEventManager { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.Siege.SiegeEventManager.html">SiegeEventManager</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_SpeedUpMultiplier_" data-uid="TaleWorlds.CampaignSystem.Campaign.SpeedUpMultiplier*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_SpeedUpMultiplier" data-uid="TaleWorlds.CampaignSystem.Campaign.SpeedUpMultiplier"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_SpeedUpMultiplier" class="expander" data-toggle="collapse">SpeedUpMultiplier</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_SpeedUpMultiplier" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float SpeedUpMultiplier { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_SupportsSaving_" data-uid="TaleWorlds.CampaignSystem.Campaign.SupportsSaving*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_SupportsSaving" data-uid="TaleWorlds.CampaignSystem.Campaign.SupportsSaving"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_SupportsSaving" class="expander" data-toggle="collapse">SupportsSaving</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_SupportsSaving" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool SupportsSaving { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TaleWorlds.Core.GameType.html#TaleWorlds_Core_GameType_SupportsSaving">GameType.SupportsSaving</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_TimeControlMode_" data-uid="TaleWorlds.CampaignSystem.Campaign.TimeControlMode*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_TimeControlMode" data-uid="TaleWorlds.CampaignSystem.Campaign.TimeControlMode"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_TimeControlMode" class="expander" data-toggle="collapse">TimeControlMode</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_TimeControlMode" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CampaignTimeControlMode TimeControlMode { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.CampaignTimeControlMode.html">CampaignTimeControlMode</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_TimeControlModeLock_" data-uid="TaleWorlds.CampaignSystem.Campaign.TimeControlModeLock*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_TimeControlModeLock" data-uid="TaleWorlds.CampaignSystem.Campaign.TimeControlModeLock"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_TimeControlModeLock" class="expander" data-toggle="collapse">TimeControlModeLock</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_TimeControlModeLock" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TimeControlModeLock { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_TrueSight_" data-uid="TaleWorlds.CampaignSystem.Campaign.TrueSight*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_TrueSight" data-uid="TaleWorlds.CampaignSystem.Campaign.TrueSight"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_TrueSight" class="expander" data-toggle="collapse">TrueSight</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_TrueSight" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TrueSight { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_UniqueGameId_" data-uid="TaleWorlds.CampaignSystem.Campaign.UniqueGameId*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_UniqueGameId" data-uid="TaleWorlds.CampaignSystem.Campaign.UniqueGameId"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_UniqueGameId" class="expander" data-toggle="collapse">UniqueGameId</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_UniqueGameId" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableProperty((short)80)]
+public string UniqueGameId { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_VillagerParties_" data-uid="TaleWorlds.CampaignSystem.Campaign.VillagerParties*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_VillagerParties" data-uid="TaleWorlds.CampaignSystem.Campaign.VillagerParties"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_VillagerParties" class="expander" data-toggle="collapse">VillagerParties</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_VillagerParties" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MBReadOnlyList&lt;MobileParty&gt; VillagerParties { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBReadOnlyList-1.html">MBReadOnlyList</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.Party.MobileParty.html">MobileParty</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_VisualCreator_" data-uid="TaleWorlds.CampaignSystem.Campaign.VisualCreator*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_VisualCreator" data-uid="TaleWorlds.CampaignSystem.Campaign.VisualCreator"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_VisualCreator" class="expander" data-toggle="collapse">VisualCreator</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_VisualCreator" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VisualCreator VisualCreator { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.VisualCreator.html">VisualCreator</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_VisualTrackerManager_" data-uid="TaleWorlds.CampaignSystem.Campaign.VisualTrackerManager*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_VisualTrackerManager" data-uid="TaleWorlds.CampaignSystem.Campaign.VisualTrackerManager"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_VisualTrackerManager" class="expander" data-toggle="collapse">VisualTrackerManager</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_VisualTrackerManager" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SaveableProperty((short)63)]
+public VisualTrackerManager VisualTrackerManager { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.VisualTrackerManager.html">VisualTrackerManager</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_Workshops_" data-uid="TaleWorlds.CampaignSystem.Campaign.Workshops*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_Workshops" data-uid="TaleWorlds.CampaignSystem.Campaign.Workshops"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_Workshops" class="expander" data-toggle="collapse">Workshops</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_Workshops" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MBReadOnlyList&lt;WorkshopType&gt; Workshops { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBReadOnlyList-1.html">MBReadOnlyList</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.Settlements.Workshops.WorkshopType.html">WorkshopType</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_AddCampaignBehaviorManager_" data-uid="TaleWorlds.CampaignSystem.Campaign.AddCampaignBehaviorManager*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_AddCampaignBehaviorManager_TaleWorlds_CampaignSystem_ICampaignBehaviorManager_" data-uid="TaleWorlds.CampaignSystem.Campaign.AddCampaignBehaviorManager(TaleWorlds.CampaignSystem.ICampaignBehaviorManager)"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_AddCampaignBehaviorManager_TaleWorlds_CampaignSystem_ICampaignBehaviorManager_" class="expander" data-toggle="collapse">AddCampaignBehaviorManager(ICampaignBehaviorManager)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_AddCampaignBehaviorManager_TaleWorlds_CampaignSystem_ICampaignBehaviorManager_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddCampaignBehaviorManager(ICampaignBehaviorManager manager)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.CampaignSystem.ICampaignBehaviorManager.html">ICampaignBehaviorManager</a></span>
+        <span class="parametername">manager</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_AddCampaignEventReceiver_" data-uid="TaleWorlds.CampaignSystem.Campaign.AddCampaignEventReceiver*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_AddCampaignEventReceiver_TaleWorlds_CampaignSystem_CampaignEventReceiver_" data-uid="TaleWorlds.CampaignSystem.Campaign.AddCampaignEventReceiver(TaleWorlds.CampaignSystem.CampaignEventReceiver)"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_AddCampaignEventReceiver_TaleWorlds_CampaignSystem_CampaignEventReceiver_" class="expander" data-toggle="collapse">AddCampaignEventReceiver(CampaignEventReceiver)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_AddCampaignEventReceiver_TaleWorlds_CampaignSystem_CampaignEventReceiver_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddCampaignEventReceiver(CampaignEventReceiver receiver)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignEventReceiver.html">CampaignEventReceiver</a></span>
+        <span class="parametername">receiver</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_AddEntityComponent_" data-uid="TaleWorlds.CampaignSystem.Campaign.AddEntityComponent*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_AddEntityComponent__1" data-uid="TaleWorlds.CampaignSystem.Campaign.AddEntityComponent``1"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_AddEntityComponent__1" class="expander" data-toggle="collapse">AddEntityComponent&lt;TComponent&gt;()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_AddEntityComponent__1" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TComponent AddEntityComponent&lt;TComponent&gt;()
+    where TComponent : CampaignEntityComponent, new()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">TComponent</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">TComponent</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_AddMapArrow_" data-uid="TaleWorlds.CampaignSystem.Campaign.AddMapArrow*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_AddMapArrow_TaleWorlds_Localization_TextObject_TaleWorlds_Library_Vec2_TaleWorlds_Library_Vec2_System_Single_System_Int32_" data-uid="TaleWorlds.CampaignSystem.Campaign.AddMapArrow(TaleWorlds.Localization.TextObject,TaleWorlds.Library.Vec2,TaleWorlds.Library.Vec2,System.Single,System.Int32)"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_AddMapArrow_TaleWorlds_Localization_TextObject_TaleWorlds_Library_Vec2_TaleWorlds_Library_Vec2_System_Single_System_Int32_" class="expander" data-toggle="collapse">AddMapArrow(TextObject, Vec2, Vec2, Single, Int32)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_AddMapArrow_TaleWorlds_Localization_TextObject_TaleWorlds_Library_Vec2_TaleWorlds_Library_Vec2_System_Single_System_Int32_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddMapArrow(TextObject pointerName, Vec2 trackPosition, Vec2 trackDirection, float life, int numberOfMembers)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.Localization.TextObject.html">TextObject</a></span>
+        <span class="parametername">pointerName</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.Library.Vec2.html">Vec2</a></span>
+        <span class="parametername">trackPosition</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.Library.Vec2.html">Vec2</a></span>
+        <span class="parametername">trackDirection</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></span>
+        <span class="parametername">life</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></span>
+        <span class="parametername">numberOfMembers</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_AutoGeneratedInstanceCollectObjects_" data-uid="TaleWorlds.CampaignSystem.Campaign.AutoGeneratedInstanceCollectObjects*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_AutoGeneratedInstanceCollectObjects_System_Collections_Generic_List_System_Object__" data-uid="TaleWorlds.CampaignSystem.Campaign.AutoGeneratedInstanceCollectObjects(System.Collections.Generic.List{System.Object})"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_AutoGeneratedInstanceCollectObjects_System_Collections_Generic_List_System_Object__" class="expander" data-toggle="collapse">AutoGeneratedInstanceCollectObjects(List&lt;Object&gt;)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_AutoGeneratedInstanceCollectObjects_System_Collections_Generic_List_System_Object__" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void AutoGeneratedInstanceCollectObjects(List&lt;object&gt; collectedObjects)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>&gt;</span>
+        <span class="parametername">collectedObjects</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TaleWorlds.Core.GameType.html#TaleWorlds_Core_GameType_AutoGeneratedInstanceCollectObjects_System_Collections_Generic_List_System_Object__">GameType.AutoGeneratedInstanceCollectObjects(List&lt;Object&gt;)</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_BeforeRegisterTypes_" data-uid="TaleWorlds.CampaignSystem.Campaign.BeforeRegisterTypes*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_BeforeRegisterTypes_TaleWorlds_ObjectSystem_MBObjectManager_" data-uid="TaleWorlds.CampaignSystem.Campaign.BeforeRegisterTypes(TaleWorlds.ObjectSystem.MBObjectManager)"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_BeforeRegisterTypes_TaleWorlds_ObjectSystem_MBObjectManager_" class="expander" data-toggle="collapse">BeforeRegisterTypes(MBObjectManager)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_BeforeRegisterTypes_TaleWorlds_ObjectSystem_MBObjectManager_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void BeforeRegisterTypes(MBObjectManager objectManager)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.ObjectSystem.MBObjectManager.html">MBObjectManager</a></span>
+        <span class="parametername">objectManager</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TaleWorlds.Core.GameType.html#TaleWorlds_Core_GameType_BeforeRegisterTypes_TaleWorlds_ObjectSystem_MBObjectManager_">GameType.BeforeRegisterTypes(MBObjectManager)</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_CreateGameMenuIndex_" data-uid="TaleWorlds.CampaignSystem.Campaign.CreateGameMenuIndex*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_CreateGameMenuIndex" data-uid="TaleWorlds.CampaignSystem.Campaign.CreateGameMenuIndex"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_CreateGameMenuIndex" class="expander" data-toggle="collapse">CreateGameMenuIndex()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_CreateGameMenuIndex" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CreateGameMenuIndex()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_DoLoadingForGameType_" data-uid="TaleWorlds.CampaignSystem.Campaign.DoLoadingForGameType*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_DoLoadingForGameType_TaleWorlds_Core_GameTypeLoadingStates_TaleWorlds_Core_GameTypeLoadingStates__" data-uid="TaleWorlds.CampaignSystem.Campaign.DoLoadingForGameType(TaleWorlds.Core.GameTypeLoadingStates,TaleWorlds.Core.GameTypeLoadingStates@)"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_DoLoadingForGameType_TaleWorlds_Core_GameTypeLoadingStates_TaleWorlds_Core_GameTypeLoadingStates__" class="expander" data-toggle="collapse">DoLoadingForGameType(GameTypeLoadingStates, out GameTypeLoadingStates)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_DoLoadingForGameType_TaleWorlds_Core_GameTypeLoadingStates_TaleWorlds_Core_GameTypeLoadingStates__" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void DoLoadingForGameType(GameTypeLoadingStates gameTypeLoadingState, out GameTypeLoadingStates nextState)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.Core.GameTypeLoadingStates.html">GameTypeLoadingStates</a></span>
+        <span class="parametername">gameTypeLoadingState</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.Core.GameTypeLoadingStates.html">GameTypeLoadingStates</a></span>
+        <span class="parametername">nextState</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TaleWorlds.Core.GameType.html#TaleWorlds_Core_GameType_DoLoadingForGameType_TaleWorlds_Core_GameTypeLoadingStates_TaleWorlds_Core_GameTypeLoadingStates__">GameType.DoLoadingForGameType(GameTypeLoadingStates, out GameTypeLoadingStates)</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_GetCampaignBehavior_" data-uid="TaleWorlds.CampaignSystem.Campaign.GetCampaignBehavior*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_GetCampaignBehavior__1" data-uid="TaleWorlds.CampaignSystem.Campaign.GetCampaignBehavior``1"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_GetCampaignBehavior__1" class="expander" data-toggle="collapse">GetCampaignBehavior&lt;T&gt;()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_GetCampaignBehavior__1" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T GetCampaignBehavior&lt;T&gt;()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">T</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">T</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_GetCampaignBehaviors_" data-uid="TaleWorlds.CampaignSystem.Campaign.GetCampaignBehaviors*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_GetCampaignBehaviors__1" data-uid="TaleWorlds.CampaignSystem.Campaign.GetCampaignBehaviors``1"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_GetCampaignBehaviors__1" class="expander" data-toggle="collapse">GetCampaignBehaviors&lt;T&gt;()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_GetCampaignBehaviors__1" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;T&gt; GetCampaignBehaviors&lt;T&gt;()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">T</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_GetEntityComponent_" data-uid="TaleWorlds.CampaignSystem.Campaign.GetEntityComponent*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_GetEntityComponent__1" data-uid="TaleWorlds.CampaignSystem.Campaign.GetEntityComponent``1"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_GetEntityComponent__1" class="expander" data-toggle="collapse">GetEntityComponent&lt;TComponent&gt;()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_GetEntityComponent__1" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TComponent GetEntityComponent&lt;TComponent&gt;()
+    where TComponent : CampaignEntityComponent</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">TComponent</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">TComponent</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_GetNearbyMobileParties_" data-uid="TaleWorlds.CampaignSystem.Campaign.GetNearbyMobileParties*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_GetNearbyMobileParties_TaleWorlds_Library_Vec2_System_Single_System_Func_TaleWorlds_CampaignSystem_Party_MobileParty_System_Boolean__" data-uid="TaleWorlds.CampaignSystem.Campaign.GetNearbyMobileParties(TaleWorlds.Library.Vec2,System.Single,System.Func{TaleWorlds.CampaignSystem.Party.MobileParty,System.Boolean})"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_GetNearbyMobileParties_TaleWorlds_Library_Vec2_System_Single_System_Func_TaleWorlds_CampaignSystem_Party_MobileParty_System_Boolean__" class="expander" data-toggle="collapse">GetNearbyMobileParties(Vec2, Single, Func&lt;MobileParty, Boolean&gt;)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_GetNearbyMobileParties_TaleWorlds_Library_Vec2_System_Single_System_Func_TaleWorlds_CampaignSystem_Party_MobileParty_System_Boolean__" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;MobileParty&gt; GetNearbyMobileParties(Vec2 position, float radius, Func&lt;MobileParty, bool&gt; condition)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.Library.Vec2.html">Vec2</a></span>
+        <span class="parametername">position</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></span>
+        <span class="parametername">radius</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.Party.MobileParty.html">MobileParty</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</span>
+        <span class="parametername">condition</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.Party.MobileParty.html">MobileParty</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_GetSimplifiedTimeControlMode_" data-uid="TaleWorlds.CampaignSystem.Campaign.GetSimplifiedTimeControlMode*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_GetSimplifiedTimeControlMode" data-uid="TaleWorlds.CampaignSystem.Campaign.GetSimplifiedTimeControlMode"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_GetSimplifiedTimeControlMode" class="expander" data-toggle="collapse">GetSimplifiedTimeControlMode()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_GetSimplifiedTimeControlMode" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CampaignTimeControlMode GetSimplifiedTimeControlMode()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.CampaignTimeControlMode.html">CampaignTimeControlMode</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_InitializeGamePlayReferences_" data-uid="TaleWorlds.CampaignSystem.Campaign.InitializeGamePlayReferences*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_InitializeGamePlayReferences" data-uid="TaleWorlds.CampaignSystem.Campaign.InitializeGamePlayReferences"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_InitializeGamePlayReferences" class="expander" data-toggle="collapse">InitializeGamePlayReferences()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_InitializeGamePlayReferences" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InitializeGamePlayReferences()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_InitializeMainParty_" data-uid="TaleWorlds.CampaignSystem.Campaign.InitializeMainParty*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_InitializeMainParty" data-uid="TaleWorlds.CampaignSystem.Campaign.InitializeMainParty"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_InitializeMainParty" class="expander" data-toggle="collapse">InitializeMainParty()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_InitializeMainParty" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InitializeMainParty()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_InitializeParameters_" data-uid="TaleWorlds.CampaignSystem.Campaign.InitializeParameters*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_InitializeParameters" data-uid="TaleWorlds.CampaignSystem.Campaign.InitializeParameters"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_InitializeParameters" class="expander" data-toggle="collapse">InitializeParameters()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_InitializeParameters" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void InitializeParameters()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TaleWorlds.Core.GameType.html#TaleWorlds_Core_GameType_InitializeParameters">GameType.InitializeParameters()</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_InitializeSinglePlayerReferences_" data-uid="TaleWorlds.CampaignSystem.Campaign.InitializeSinglePlayerReferences*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_InitializeSinglePlayerReferences" data-uid="TaleWorlds.CampaignSystem.Campaign.InitializeSinglePlayerReferences"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_InitializeSinglePlayerReferences" class="expander" data-toggle="collapse">InitializeSinglePlayerReferences()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_InitializeSinglePlayerReferences" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InitializeSinglePlayerReferences()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_OnDestroy_" data-uid="TaleWorlds.CampaignSystem.Campaign.OnDestroy*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_OnDestroy" data-uid="TaleWorlds.CampaignSystem.Campaign.OnDestroy"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_OnDestroy" class="expander" data-toggle="collapse">OnDestroy()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_OnDestroy" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnDestroy()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TaleWorlds.Core.GameType.html#TaleWorlds_Core_GameType_OnDestroy">GameType.OnDestroy()</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_OnGameOver_" data-uid="TaleWorlds.CampaignSystem.Campaign.OnGameOver*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_OnGameOver" data-uid="TaleWorlds.CampaignSystem.Campaign.OnGameOver"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_OnGameOver" class="expander" data-toggle="collapse">OnGameOver()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_OnGameOver" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnGameOver()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_OnInitialize_" data-uid="TaleWorlds.CampaignSystem.Campaign.OnInitialize*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_OnInitialize" data-uid="TaleWorlds.CampaignSystem.Campaign.OnInitialize"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_OnInitialize" class="expander" data-toggle="collapse">OnInitialize()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_OnInitialize" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnInitialize()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TaleWorlds.Core.GameType.html#TaleWorlds_Core_GameType_OnInitialize">GameType.OnInitialize()</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_OnMissionIsStarting_" data-uid="TaleWorlds.CampaignSystem.Campaign.OnMissionIsStarting*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_OnMissionIsStarting_System_String_TaleWorlds_Core_MissionInitializerRecord_" data-uid="TaleWorlds.CampaignSystem.Campaign.OnMissionIsStarting(System.String,TaleWorlds.Core.MissionInitializerRecord)"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_OnMissionIsStarting_System_String_TaleWorlds_Core_MissionInitializerRecord_" class="expander" data-toggle="collapse">OnMissionIsStarting(String, MissionInitializerRecord)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_OnMissionIsStarting_System_String_TaleWorlds_Core_MissionInitializerRecord_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnMissionIsStarting(string missionName, MissionInitializerRecord rec)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></span>
+        <span class="parametername">missionName</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.Core.MissionInitializerRecord.html">MissionInitializerRecord</a></span>
+        <span class="parametername">rec</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TaleWorlds.Core.GameType.html#TaleWorlds_Core_GameType_OnMissionIsStarting_System_String_TaleWorlds_Core_MissionInitializerRecord_">GameType.OnMissionIsStarting(String, MissionInitializerRecord)</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_OnPlayerCharacterChanged_" data-uid="TaleWorlds.CampaignSystem.Campaign.OnPlayerCharacterChanged*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_OnPlayerCharacterChanged" data-uid="TaleWorlds.CampaignSystem.Campaign.OnPlayerCharacterChanged"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_OnPlayerCharacterChanged" class="expander" data-toggle="collapse">OnPlayerCharacterChanged()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_OnPlayerCharacterChanged" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPlayerCharacterChanged()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_OnRegisterTypes_" data-uid="TaleWorlds.CampaignSystem.Campaign.OnRegisterTypes*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_OnRegisterTypes_TaleWorlds_ObjectSystem_MBObjectManager_" data-uid="TaleWorlds.CampaignSystem.Campaign.OnRegisterTypes(TaleWorlds.ObjectSystem.MBObjectManager)"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_OnRegisterTypes_TaleWorlds_ObjectSystem_MBObjectManager_" class="expander" data-toggle="collapse">OnRegisterTypes(MBObjectManager)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_OnRegisterTypes_TaleWorlds_ObjectSystem_MBObjectManager_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnRegisterTypes(MBObjectManager objectManager)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.ObjectSystem.MBObjectManager.html">MBObjectManager</a></span>
+        <span class="parametername">objectManager</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TaleWorlds.Core.GameType.html#TaleWorlds_Core_GameType_OnRegisterTypes_TaleWorlds_ObjectSystem_MBObjectManager_">GameType.OnRegisterTypes(MBObjectManager)</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_OnStateChanged_" data-uid="TaleWorlds.CampaignSystem.Campaign.OnStateChanged*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_OnStateChanged_TaleWorlds_Core_GameState_" data-uid="TaleWorlds.CampaignSystem.Campaign.OnStateChanged(TaleWorlds.Core.GameState)"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_OnStateChanged_TaleWorlds_Core_GameState_" class="expander" data-toggle="collapse">OnStateChanged(GameState)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_OnStateChanged_TaleWorlds_Core_GameState_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnStateChanged(GameState oldState)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.Core.GameState.html">GameState</a></span>
+        <span class="parametername">oldState</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TaleWorlds.Core.GameType.html#TaleWorlds_Core_GameType_OnStateChanged_TaleWorlds_Core_GameState_">GameType.OnStateChanged(GameState)</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_RemoveTracks_" data-uid="TaleWorlds.CampaignSystem.Campaign.RemoveTracks*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_RemoveTracks_System_Predicate_TaleWorlds_CampaignSystem_Track__" data-uid="TaleWorlds.CampaignSystem.Campaign.RemoveTracks(System.Predicate{TaleWorlds.CampaignSystem.Track})"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_RemoveTracks_System_Predicate_TaleWorlds_CampaignSystem_Track__" class="expander" data-toggle="collapse">RemoveTracks(Predicate&lt;Track&gt;)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_RemoveTracks_System_Predicate_TaleWorlds_CampaignSystem_Track__" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveTracks(Predicate&lt;Track&gt; predicate)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.predicate-1">Predicate</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.Track.html">Track</a>&gt;</span>
+        <span class="parametername">predicate</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_SetLoadingParameters_" data-uid="TaleWorlds.CampaignSystem.Campaign.SetLoadingParameters*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_SetLoadingParameters_TaleWorlds_CampaignSystem_Campaign_GameLoadingType_" data-uid="TaleWorlds.CampaignSystem.Campaign.SetLoadingParameters(TaleWorlds.CampaignSystem.Campaign.GameLoadingType)"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_SetLoadingParameters_TaleWorlds_CampaignSystem_Campaign_GameLoadingType_" class="expander" data-toggle="collapse">SetLoadingParameters(Campaign.GameLoadingType)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_SetLoadingParameters_TaleWorlds_CampaignSystem_Campaign_GameLoadingType_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetLoadingParameters(Campaign.GameLoadingType gameLoadingType)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.CampaignSystem.Campaign.GameLoadingType.html">Campaign.GameLoadingType</a></span>
+        <span class="parametername">gameLoadingType</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_SetLoadingParameters_" data-uid="TaleWorlds.CampaignSystem.Campaign.SetLoadingParameters*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_SetLoadingParameters_TaleWorlds_CampaignSystem_Campaign_GameLoadingType_System_Int32_" data-uid="TaleWorlds.CampaignSystem.Campaign.SetLoadingParameters(TaleWorlds.CampaignSystem.Campaign.GameLoadingType,System.Int32)"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_SetLoadingParameters_TaleWorlds_CampaignSystem_Campaign_GameLoadingType_System_Int32_" class="expander" data-toggle="collapse">SetLoadingParameters(Campaign.GameLoadingType, Int32)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_SetLoadingParameters_TaleWorlds_CampaignSystem_Campaign_GameLoadingType_System_Int32_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetLoadingParameters(Campaign.GameLoadingType gameLoadingType, int randomSeed)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.CampaignSystem.Campaign.GameLoadingType.html">Campaign.GameLoadingType</a></span>
+        <span class="parametername">gameLoadingType</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></span>
+        <span class="parametername">randomSeed</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_SetPlayerFormationPreference_" data-uid="TaleWorlds.CampaignSystem.Campaign.SetPlayerFormationPreference*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_SetPlayerFormationPreference_TaleWorlds_CampaignSystem_CharacterObject_TaleWorlds_Core_FormationClass_" data-uid="TaleWorlds.CampaignSystem.Campaign.SetPlayerFormationPreference(TaleWorlds.CampaignSystem.CharacterObject,TaleWorlds.Core.FormationClass)"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_SetPlayerFormationPreference_TaleWorlds_CampaignSystem_CharacterObject_TaleWorlds_Core_FormationClass_" class="expander" data-toggle="collapse">SetPlayerFormationPreference(CharacterObject, FormationClass)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_SetPlayerFormationPreference_TaleWorlds_CampaignSystem_CharacterObject_TaleWorlds_Core_FormationClass_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPlayerFormationPreference(CharacterObject character, FormationClass formation)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.CampaignSystem.CharacterObject.html">CharacterObject</a></span>
+        <span class="parametername">character</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.Core.FormationClass.html">FormationClass</a></span>
+        <span class="parametername">formation</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_SetTimeControlModeLock_" data-uid="TaleWorlds.CampaignSystem.Campaign.SetTimeControlModeLock*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_SetTimeControlModeLock_System_Boolean_" data-uid="TaleWorlds.CampaignSystem.Campaign.SetTimeControlModeLock(System.Boolean)"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_SetTimeControlModeLock_System_Boolean_" class="expander" data-toggle="collapse">SetTimeControlModeLock(Boolean)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_SetTimeControlModeLock_System_Boolean_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTimeControlModeLock(bool isLocked)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></span>
+        <span class="parametername">isLocked</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_SetTimeSpeed_" data-uid="TaleWorlds.CampaignSystem.Campaign.SetTimeSpeed*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_SetTimeSpeed_System_Int32_" data-uid="TaleWorlds.CampaignSystem.Campaign.SetTimeSpeed(System.Int32)"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_SetTimeSpeed_System_Int32_" class="expander" data-toggle="collapse">SetTimeSpeed(Int32)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_SetTimeSpeed_System_Int32_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTimeSpeed(int speed)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></span>
+        <span class="parametername">speed</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_Campaign_UpdateMaximumDistanceBetweenTwoSettlements_" data-uid="TaleWorlds.CampaignSystem.Campaign.UpdateMaximumDistanceBetweenTwoSettlements*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_Campaign_UpdateMaximumDistanceBetweenTwoSettlements" data-uid="TaleWorlds.CampaignSystem.Campaign.UpdateMaximumDistanceBetweenTwoSettlements"><a href="#collapsible-TaleWorlds_CampaignSystem_Campaign_UpdateMaximumDistanceBetweenTwoSettlements" class="expander" data-toggle="collapse">UpdateMaximumDistanceBetweenTwoSettlements()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_Campaign_UpdateMaximumDistanceBetweenTwoSettlements" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateMaximumDistanceBetweenTwoSettlements()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+</article>
+          </div>
+          <div class="contribution-panel mobile-hide">
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Unofficial Bannerlord API Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

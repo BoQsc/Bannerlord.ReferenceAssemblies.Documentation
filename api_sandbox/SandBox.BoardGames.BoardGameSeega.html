@@ -1,0 +1,1478 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BoardGameSeega
+   | Unofficial Bannerlord API Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BoardGameSeega
+   | Unofficial Bannerlord API Documentation ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/collapse-container.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                  </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SandBox.BoardGames.BoardGameSeega">
+  <h1 id="SandBox_BoardGames_BoardGameSeega" data-uid="SandBox.BoardGames.BoardGameSeega">Class BoardGameSeega
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="SandBox.BoardGames.BoardGameBase.html">BoardGameBase</a></div>
+    <div class="level2"><span class="xref">BoardGameSeega</span></div>
+  </div>
+  
+  
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_StringBoardGame">BoardGameBase.StringBoardGame</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_StringForfeitQuestion">BoardGameBase.StringForfeitQuestion</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_StringMovePiecePlayer">BoardGameBase.StringMovePiecePlayer</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_StringMovePieceOpponent">BoardGameBase.StringMovePieceOpponent</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_StringCapturePiecePlayer">BoardGameBase.StringCapturePiecePlayer</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_StringCapturePieceOpponent">BoardGameBase.StringCapturePieceOpponent</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_StringVictoryMessage">BoardGameBase.StringVictoryMessage</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_StringDefeatMessage">BoardGameBase.StringDefeatMessage</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_StringDrawMessage">BoardGameBase.StringDrawMessage</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_StringNoAvailableMovesPlayer">BoardGameBase.StringNoAvailableMovesPlayer</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_StringNoAvailableMovesOpponent">BoardGameBase.StringNoAvailableMovesOpponent</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_StringSeegaBarrierByP1DrawMessage">BoardGameBase.StringSeegaBarrierByP1DrawMessage</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_StringSeegaBarrierByP2DrawMessage">BoardGameBase.StringSeegaBarrierByP2DrawMessage</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_StringSeegaBarrierByP1VictoryMessage">BoardGameBase.StringSeegaBarrierByP1VictoryMessage</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_StringSeegaBarrierByP2VictoryMessage">BoardGameBase.StringSeegaBarrierByP2VictoryMessage</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_StringSeegaBarrierByP1DefeatMessage">BoardGameBase.StringSeegaBarrierByP1DefeatMessage</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_StringSeegaBarrierByP2DefeatMessage">BoardGameBase.StringSeegaBarrierByP2DefeatMessage</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_StringRollDicePlayer">BoardGameBase.StringRollDicePlayer</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_StringRollDiceOpponent">BoardGameBase.StringRollDiceOpponent</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_InvalidDice">BoardGameBase.InvalidDice</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_DelayBeforeMovingAnyPawn">BoardGameBase.DelayBeforeMovingAnyPawn</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_DelayBetweenPawnMovementsBegin">BoardGameBase.DelayBetweenPawnMovementsBegin</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_PawnSelectedFactor">BoardGameBase.PawnSelectedFactor</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_PawnUnselectedFactor">BoardGameBase.PawnUnselectedFactor</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_MissionHandler">BoardGameBase.MissionHandler</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_BoardEntity">BoardGameBase.BoardEntity</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_DiceBoard">BoardGameBase.DiceBoard</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_JustStoppedDraggingUnit">BoardGameBase.JustStoppedDraggingUnit</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_PlayerOnePool">BoardGameBase.PlayerOnePool</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_ReadyToPlay">BoardGameBase.ReadyToPlay</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_PlayerTwoPool">BoardGameBase.PlayerTwoPool</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_SettingUpBoard">BoardGameBase.SettingUpBoard</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_HasToMovePawnsAcross">BoardGameBase.HasToMovePawnsAcross</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_DiceRollAnimationTimer">BoardGameBase.DiceRollAnimationTimer</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_MovesLeftToEndTurn">BoardGameBase.MovesLeftToEndTurn</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_DiceRollAnimationRunning">BoardGameBase.DiceRollAnimationRunning</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_InPreMovementStage">BoardGameBase.InPreMovementStage</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_DiceRollSoundCodeID">BoardGameBase.DiceRollSoundCodeID</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_OnAfterBoardRotated">BoardGameBase.OnAfterBoardRotated()</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_OnBeforeEndTurn">BoardGameBase.OnBeforeEndTurn()</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_RollDice">BoardGameBase.RollDice()</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_UpdateAllTilesPositions">BoardGameBase.UpdateAllTilesPositions()</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_InitializeDiceBoard">BoardGameBase.InitializeDiceBoard()</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_InitializeCapturedUnitsZones">BoardGameBase.InitializeCapturedUnitsZones()</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_CalculateAllValidMoves_SandBox_BoardGames_BoardGameSide_">BoardGameBase.CalculateAllValidMoves(BoardGameSide)</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_MovePawnToTile_SandBox_BoardGames_Pawns_PawnBase_SandBox_BoardGames_Tiles_TileBase_System_Boolean_System_Boolean_">BoardGameBase.MovePawnToTile(PawnBase, TileBase, Boolean, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_OnAfterDiceRollAnimation">BoardGameBase.OnAfterDiceRollAnimation()</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_SetUserRay_TaleWorlds_Library_Vec3_TaleWorlds_Library_Vec3_">BoardGameBase.SetUserRay(Vec3, Vec3)</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_SetStartingPlayer_SandBox_BoardGames_PlayerTurn_">BoardGameBase.SetStartingPlayer(PlayerTurn)</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_SetGameOverInfo_SandBox_BoardGames_GameOverEnum_">BoardGameBase.SetGameOverInfo(GameOverEnum)</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_HasMovesAvailable_System_Collections_Generic_List_System_Collections_Generic_List_SandBox_BoardGames_Move____">BoardGameBase.HasMovesAvailable(List&lt;List&lt;Move&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_GetTotalMovesAvailable_System_Collections_Generic_List_System_Collections_Generic_List_SandBox_BoardGames_Move____">BoardGameBase.GetTotalMovesAvailable(List&lt;List&lt;Move&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_PlayDiceRollSound">BoardGameBase.PlayDiceRollSound()</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_GetPlayerOneUnitsAlive">BoardGameBase.GetPlayerOneUnitsAlive()</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_GetPlayerTwoUnitsAlive">BoardGameBase.GetPlayerTwoUnitsAlive()</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_GetPlayerOneUnitsDead">BoardGameBase.GetPlayerOneUnitsDead()</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_GetPlayerTwoUnitsDead">BoardGameBase.GetPlayerTwoUnitsDead()</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_Initialize">BoardGameBase.Initialize()</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_RemovePawnFromBoard_SandBox_BoardGames_Pawns_PawnBase_System_Single_System_Boolean_">BoardGameBase.RemovePawnFromBoard(PawnBase, Single, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_Tick_System_Single_">BoardGameBase.Tick(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_ForceDice_System_Int32_">BoardGameBase.ForceDice(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_InitializeUnit_SandBox_BoardGames_Pawns_PawnBase_">BoardGameBase.InitializeUnit(PawnBase)</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_HandlePlayerInput_System_Single_">BoardGameBase.HandlePlayerInput(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_GetHoveredPawnIfAny">BoardGameBase.GetHoveredPawnIfAny()</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_GetHoveredTileIfAny">BoardGameBase.GetHoveredTileIfAny()</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_CheckSwitchPlayerTurn">BoardGameBase.CheckSwitchPlayerTurn()</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_OnVictory_System_String_">BoardGameBase.OnVictory(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_OnAfterEndTurn">BoardGameBase.OnAfterEndTurn()</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_OnDefeat_System_String_">BoardGameBase.OnDefeat(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_OnDraw_System_String_">BoardGameBase.OnDraw(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_EndTurn">BoardGameBase.EndTurn()</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_ClearValidMoves">BoardGameBase.ClearValidMoves()</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_HideAllValidTiles">BoardGameBase.HideAllValidTiles()</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_ShowAllValidTiles">BoardGameBase.ShowAllValidTiles()</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_OnAIWantsForfeit">BoardGameBase.OnAIWantsForfeit()</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_SelectedUnit">BoardGameBase.SelectedUnit</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_Name">BoardGameBase.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_Tiles">BoardGameBase.Tiles</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_PlayerOneUnits">BoardGameBase.PlayerOneUnits</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_PlayerTwoUnits">BoardGameBase.PlayerTwoUnits</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_LastDice">BoardGameBase.LastDice</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_IsReady">BoardGameBase.IsReady</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_PlayerWhoStarted">BoardGameBase.PlayerWhoStarted</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_GameOverInfo">BoardGameBase.GameOverInfo</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_PlayerTurn">BoardGameBase.PlayerTurn</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_InputManager">BoardGameBase.InputManager</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_PawnSelectFilter">BoardGameBase.PawnSelectFilter</a>
+    </div>
+    <div>
+      <a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_AIOpponent">BoardGameBase.AIOpponent</a>
+    </div>
+  </div>
+  
+  <h6><strong>Namespace</strong>: <a class="xref" href="SandBox.BoardGames.html">SandBox.BoardGames</a></h6>
+  <h6><strong>Assembly</strong>: SandBox.dll</h6>
+  
+  <h5 id="SandBox_BoardGames_BoardGameSeega_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class BoardGameSeega : BoardGameBase</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="SandBox_BoardGames_BoardGameSeega__ctor_" data-uid="SandBox.BoardGames.BoardGameSeega.#ctor*"></a>
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega__ctor_SandBox_BoardGames_MissionLogics_MissionBoardGameLogic_SandBox_BoardGames_PlayerTurn_" data-uid="SandBox.BoardGames.BoardGameSeega.#ctor(SandBox.BoardGames.MissionLogics.MissionBoardGameLogic,SandBox.BoardGames.PlayerTurn)"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega__ctor_SandBox_BoardGames_MissionLogics_MissionBoardGameLogic_SandBox_BoardGames_PlayerTurn_" class="expander" data-toggle="collapse">BoardGameSeega(MissionBoardGameLogic, PlayerTurn)</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega__ctor_SandBox_BoardGames_MissionLogics_MissionBoardGameLogic_SandBox_BoardGames_PlayerTurn_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BoardGameSeega(MissionBoardGameLogic mission, PlayerTurn startingPlayer)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="SandBox.BoardGames.MissionLogics.MissionBoardGameLogic.html">MissionBoardGameLogic</a></span>
+        <span class="parametername">mission</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="SandBox.BoardGames.PlayerTurn.html">PlayerTurn</a></span>
+        <span class="parametername">startingPlayer</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_BoardHeight" data-uid="SandBox.BoardGames.BoardGameSeega.BoardHeight"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_BoardHeight" class="expander" data-toggle="collapse">BoardHeight</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_BoardHeight" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly int BoardHeight</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_BoardWidth" data-uid="SandBox.BoardGames.BoardGameSeega.BoardWidth"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_BoardWidth" class="expander" data-toggle="collapse">BoardWidth</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_BoardWidth" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly int BoardWidth</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="SandBox_BoardGames_BoardGameSeega_DiceRollRequired_" data-uid="SandBox.BoardGames.BoardGameSeega.DiceRollRequired*"></a>
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_DiceRollRequired" data-uid="SandBox.BoardGames.BoardGameSeega.DiceRollRequired"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_DiceRollRequired" class="expander" data-toggle="collapse">DiceRollRequired</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_DiceRollRequired" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool DiceRollRequired { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_DiceRollRequired">BoardGameBase.DiceRollRequired</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="SandBox_BoardGames_BoardGameSeega_PreMovementStagePresent_" data-uid="SandBox.BoardGames.BoardGameSeega.PreMovementStagePresent*"></a>
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_PreMovementStagePresent" data-uid="SandBox.BoardGames.BoardGameSeega.PreMovementStagePresent"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_PreMovementStagePresent" class="expander" data-toggle="collapse">PreMovementStagePresent</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_PreMovementStagePresent" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool PreMovementStagePresent { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_PreMovementStagePresent">BoardGameBase.PreMovementStagePresent</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="SandBox_BoardGames_BoardGameSeega_RotateBoard_" data-uid="SandBox.BoardGames.BoardGameSeega.RotateBoard*"></a>
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_RotateBoard" data-uid="SandBox.BoardGames.BoardGameSeega.RotateBoard"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_RotateBoard" class="expander" data-toggle="collapse">RotateBoard</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_RotateBoard" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool RotateBoard { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_RotateBoard">BoardGameBase.RotateBoard</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="SandBox_BoardGames_BoardGameSeega_TileCount_" data-uid="SandBox.BoardGames.BoardGameSeega.TileCount*"></a>
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_TileCount" data-uid="SandBox.BoardGames.BoardGameSeega.TileCount"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_TileCount" class="expander" data-toggle="collapse">TileCount</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_TileCount" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int TileCount { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_TileCount">BoardGameBase.TileCount</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="SandBox_BoardGames_BoardGameSeega_UnitsToPlacePerTurnInPreMovementStage_" data-uid="SandBox.BoardGames.BoardGameSeega.UnitsToPlacePerTurnInPreMovementStage*"></a>
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_UnitsToPlacePerTurnInPreMovementStage" data-uid="SandBox.BoardGames.BoardGameSeega.UnitsToPlacePerTurnInPreMovementStage"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_UnitsToPlacePerTurnInPreMovementStage" class="expander" data-toggle="collapse">UnitsToPlacePerTurnInPreMovementStage</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_UnitsToPlacePerTurnInPreMovementStage" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override int UnitsToPlacePerTurnInPreMovementStage { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_UnitsToPlacePerTurnInPreMovementStage">BoardGameBase.UnitsToPlacePerTurnInPreMovementStage</a></div>
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="SandBox_BoardGames_BoardGameSeega_AIMakeMove_" data-uid="SandBox.BoardGames.BoardGameSeega.AIMakeMove*"></a>
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_AIMakeMove_SandBox_BoardGames_Move_" data-uid="SandBox.BoardGames.BoardGameSeega.AIMakeMove(SandBox.BoardGames.Move)"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_AIMakeMove_SandBox_BoardGames_Move_" class="expander" data-toggle="collapse">AIMakeMove(Move)</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_AIMakeMove_SandBox_BoardGames_Move_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AIMakeMove(Move move)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="SandBox.BoardGames.Move.html">Move</a></span>
+        <span class="parametername">move</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="SandBox_BoardGames_BoardGameSeega_CalculateValidMoves_" data-uid="SandBox.BoardGames.BoardGameSeega.CalculateValidMoves*"></a>
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_CalculateValidMoves_SandBox_BoardGames_Pawns_PawnBase_" data-uid="SandBox.BoardGames.BoardGameSeega.CalculateValidMoves(SandBox.BoardGames.Pawns.PawnBase)"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_CalculateValidMoves_SandBox_BoardGames_Pawns_PawnBase_" class="expander" data-toggle="collapse">CalculateValidMoves(PawnBase)</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_CalculateValidMoves_SandBox_BoardGames_Pawns_PawnBase_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override List&lt;Move&gt; CalculateValidMoves(PawnBase pawn)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="SandBox.BoardGames.Pawns.PawnBase.html">PawnBase</a></span>
+        <span class="parametername">pawn</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SandBox.BoardGames.Move.html">Move</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_CalculateValidMoves_SandBox_BoardGames_Pawns_PawnBase_">BoardGameBase.CalculateValidMoves(PawnBase)</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="SandBox_BoardGames_BoardGameSeega_CheckGameEnded_" data-uid="SandBox.BoardGames.BoardGameSeega.CheckGameEnded*"></a>
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_CheckGameEnded" data-uid="SandBox.BoardGames.BoardGameSeega.CheckGameEnded"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_CheckGameEnded" class="expander" data-toggle="collapse">CheckGameEnded()</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_CheckGameEnded" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool CheckGameEnded()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_CheckGameEnded">BoardGameBase.CheckGameEnded()</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="SandBox_BoardGames_BoardGameSeega_GetBlockingPawns_" data-uid="SandBox.BoardGames.BoardGameSeega.GetBlockingPawns*"></a>
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_GetBlockingPawns_System_Boolean_" data-uid="SandBox.BoardGames.BoardGameSeega.GetBlockingPawns(System.Boolean)"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_GetBlockingPawns_System_Boolean_" class="expander" data-toggle="collapse">GetBlockingPawns(Boolean)</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_GetBlockingPawns_System_Boolean_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;PawnBase, int&gt; GetBlockingPawns(bool playerOneBlocked)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></span>
+        <span class="parametername">playerOneBlocked</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="SandBox.BoardGames.Pawns.PawnBase.html">PawnBase</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="SandBox_BoardGames_BoardGameSeega_GetTile_" data-uid="SandBox.BoardGames.BoardGameSeega.GetTile*"></a>
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_GetTile_System_Int32_System_Int32_" data-uid="SandBox.BoardGames.BoardGameSeega.GetTile(System.Int32,System.Int32)"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_GetTile_System_Int32_System_Int32_" class="expander" data-toggle="collapse">GetTile(Int32, Int32)</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_GetTile_System_Int32_System_Int32_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TileBase GetTile(int x, int y)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></span>
+        <span class="parametername">x</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></span>
+        <span class="parametername">y</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="SandBox.BoardGames.Tiles.TileBase.html">TileBase</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="SandBox_BoardGames_BoardGameSeega_HandlePreMovementStage_" data-uid="SandBox.BoardGames.BoardGameSeega.HandlePreMovementStage*"></a>
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_HandlePreMovementStage_System_Single_" data-uid="SandBox.BoardGames.BoardGameSeega.HandlePreMovementStage(System.Single)"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_HandlePreMovementStage_System_Single_" class="expander" data-toggle="collapse">HandlePreMovementStage(Single)</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_HandlePreMovementStage_System_Single_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void HandlePreMovementStage(float dt)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></span>
+        <span class="parametername">dt</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_HandlePreMovementStage_System_Single_">BoardGameBase.HandlePreMovementStage(Single)</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="SandBox_BoardGames_BoardGameSeega_HandlePreMovementStageAI_" data-uid="SandBox.BoardGames.BoardGameSeega.HandlePreMovementStageAI*"></a>
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_HandlePreMovementStageAI_SandBox_BoardGames_Move_" data-uid="SandBox.BoardGames.BoardGameSeega.HandlePreMovementStageAI(SandBox.BoardGames.Move)"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_HandlePreMovementStageAI_SandBox_BoardGames_Move_" class="expander" data-toggle="collapse">HandlePreMovementStageAI(Move)</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_HandlePreMovementStageAI_SandBox_BoardGames_Move_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void HandlePreMovementStageAI(Move move)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="SandBox.BoardGames.Move.html">Move</a></span>
+        <span class="parametername">move</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_HandlePreMovementStageAI_SandBox_BoardGames_Move_">BoardGameBase.HandlePreMovementStageAI(Move)</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="SandBox_BoardGames_BoardGameSeega_InitializeSound_" data-uid="SandBox.BoardGames.BoardGameSeega.InitializeSound*"></a>
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_InitializeSound" data-uid="SandBox.BoardGames.BoardGameSeega.InitializeSound"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_InitializeSound" class="expander" data-toggle="collapse">InitializeSound()</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_InitializeSound" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void InitializeSound()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_InitializeSound">BoardGameBase.InitializeSound()</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="SandBox_BoardGames_BoardGameSeega_InitializeTiles_" data-uid="SandBox.BoardGames.BoardGameSeega.InitializeTiles*"></a>
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_InitializeTiles" data-uid="SandBox.BoardGames.BoardGameSeega.InitializeTiles"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_InitializeTiles" class="expander" data-toggle="collapse">InitializeTiles()</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_InitializeTiles" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void InitializeTiles()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_InitializeTiles">BoardGameBase.InitializeTiles()</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="SandBox_BoardGames_BoardGameSeega_InitializeUnits_" data-uid="SandBox.BoardGames.BoardGameSeega.InitializeUnits*"></a>
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_InitializeUnits" data-uid="SandBox.BoardGames.BoardGameSeega.InitializeUnits"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_InitializeUnits" class="expander" data-toggle="collapse">InitializeUnits()</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_InitializeUnits" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void InitializeUnits()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_InitializeUnits">BoardGameBase.InitializeUnits()</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="SandBox_BoardGames_BoardGameSeega_MovePawnToTileDelayed_" data-uid="SandBox.BoardGames.BoardGameSeega.MovePawnToTileDelayed*"></a>
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_MovePawnToTileDelayed_SandBox_BoardGames_Pawns_PawnBase_SandBox_BoardGames_Tiles_TileBase_System_Boolean_System_Boolean_System_Single_" data-uid="SandBox.BoardGames.BoardGameSeega.MovePawnToTileDelayed(SandBox.BoardGames.Pawns.PawnBase,SandBox.BoardGames.Tiles.TileBase,System.Boolean,System.Boolean,System.Single)"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_MovePawnToTileDelayed_SandBox_BoardGames_Pawns_PawnBase_SandBox_BoardGames_Tiles_TileBase_System_Boolean_System_Boolean_System_Single_" class="expander" data-toggle="collapse">MovePawnToTileDelayed(PawnBase, TileBase, Boolean, Boolean, Single)</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_MovePawnToTileDelayed_SandBox_BoardGames_Pawns_PawnBase_SandBox_BoardGames_Tiles_TileBase_System_Boolean_System_Boolean_System_Single_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void MovePawnToTileDelayed(PawnBase pawn, TileBase tile, bool instantMove, bool displayMessage, float delay)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="SandBox.BoardGames.Pawns.PawnBase.html">PawnBase</a></span>
+        <span class="parametername">pawn</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="SandBox.BoardGames.Tiles.TileBase.html">TileBase</a></span>
+        <span class="parametername">tile</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></span>
+        <span class="parametername">instantMove</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></span>
+        <span class="parametername">displayMessage</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></span>
+        <span class="parametername">delay</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_MovePawnToTileDelayed_SandBox_BoardGames_Pawns_PawnBase_SandBox_BoardGames_Tiles_TileBase_System_Boolean_System_Boolean_System_Single_">BoardGameBase.MovePawnToTileDelayed(PawnBase, TileBase, Boolean, Boolean, Single)</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="SandBox_BoardGames_BoardGameSeega_OnAfterBoardSetUp_" data-uid="SandBox.BoardGames.BoardGameSeega.OnAfterBoardSetUp*"></a>
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_OnAfterBoardSetUp" data-uid="SandBox.BoardGames.BoardGameSeega.OnAfterBoardSetUp"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_OnAfterBoardSetUp" class="expander" data-toggle="collapse">OnAfterBoardSetUp()</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_OnAfterBoardSetUp" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnAfterBoardSetUp()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_OnAfterBoardSetUp">BoardGameBase.OnAfterBoardSetUp()</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="SandBox_BoardGames_BoardGameSeega_OnPawnArrivesGoalPosition_" data-uid="SandBox.BoardGames.BoardGameSeega.OnPawnArrivesGoalPosition*"></a>
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_OnPawnArrivesGoalPosition_SandBox_BoardGames_Pawns_PawnBase_TaleWorlds_Library_Vec3_TaleWorlds_Library_Vec3_" data-uid="SandBox.BoardGames.BoardGameSeega.OnPawnArrivesGoalPosition(SandBox.BoardGames.Pawns.PawnBase,TaleWorlds.Library.Vec3,TaleWorlds.Library.Vec3)"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_OnPawnArrivesGoalPosition_SandBox_BoardGames_Pawns_PawnBase_TaleWorlds_Library_Vec3_TaleWorlds_Library_Vec3_" class="expander" data-toggle="collapse">OnPawnArrivesGoalPosition(PawnBase, Vec3, Vec3)</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_OnPawnArrivesGoalPosition_SandBox_BoardGames_Pawns_PawnBase_TaleWorlds_Library_Vec3_TaleWorlds_Library_Vec3_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnPawnArrivesGoalPosition(PawnBase pawn, Vec3 prevPos, Vec3 currentPos)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="SandBox.BoardGames.Pawns.PawnBase.html">PawnBase</a></span>
+        <span class="parametername">pawn</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="../api_core/TaleWorlds.Library.Vec3.html">Vec3</a></span>
+        <span class="parametername">prevPos</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="../api_core/TaleWorlds.Library.Vec3.html">Vec3</a></span>
+        <span class="parametername">currentPos</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_OnPawnArrivesGoalPosition_SandBox_BoardGames_Pawns_PawnBase_TaleWorlds_Library_Vec3_TaleWorlds_Library_Vec3_">BoardGameBase.OnPawnArrivesGoalPosition(PawnBase, Vec3, Vec3)</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="SandBox_BoardGames_BoardGameSeega_Reset_" data-uid="SandBox.BoardGames.BoardGameSeega.Reset*"></a>
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_Reset" data-uid="SandBox.BoardGames.BoardGameSeega.Reset"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_Reset" class="expander" data-toggle="collapse">Reset()</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_Reset" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Reset()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_Reset">BoardGameBase.Reset()</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="SandBox_BoardGames_BoardGameSeega_SelectPawn_" data-uid="SandBox.BoardGames.BoardGameSeega.SelectPawn*"></a>
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_SelectPawn_SandBox_BoardGames_Pawns_PawnBase_" data-uid="SandBox.BoardGames.BoardGameSeega.SelectPawn(SandBox.BoardGames.Pawns.PawnBase)"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_SelectPawn_SandBox_BoardGames_Pawns_PawnBase_" class="expander" data-toggle="collapse">SelectPawn(PawnBase)</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_SelectPawn_SandBox_BoardGames_Pawns_PawnBase_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override PawnBase SelectPawn(PawnBase pawn)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="SandBox.BoardGames.Pawns.PawnBase.html">PawnBase</a></span>
+        <span class="parametername">pawn</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="SandBox.BoardGames.Pawns.PawnBase.html">PawnBase</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_SelectPawn_SandBox_BoardGames_Pawns_PawnBase_">BoardGameBase.SelectPawn(PawnBase)</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="SandBox_BoardGames_BoardGameSeega_SetPawnCaptured_" data-uid="SandBox.BoardGames.BoardGameSeega.SetPawnCaptured*"></a>
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_SetPawnCaptured_SandBox_BoardGames_Pawns_PawnBase_System_Boolean_" data-uid="SandBox.BoardGames.BoardGameSeega.SetPawnCaptured(SandBox.BoardGames.Pawns.PawnBase,System.Boolean)"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_SetPawnCaptured_SandBox_BoardGames_Pawns_PawnBase_System_Boolean_" class="expander" data-toggle="collapse">SetPawnCaptured(PawnBase, Boolean)</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_SetPawnCaptured_SandBox_BoardGames_Pawns_PawnBase_System_Boolean_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SetPawnCaptured(PawnBase pawn, bool aiSimulation = false)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="SandBox.BoardGames.Pawns.PawnBase.html">PawnBase</a></span>
+        <span class="parametername">pawn</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></span>
+        <span class="parametername">aiSimulation</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_SetPawnCaptured_SandBox_BoardGames_Pawns_PawnBase_System_Boolean_">BoardGameBase.SetPawnCaptured(PawnBase, Boolean)</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="SandBox_BoardGames_BoardGameSeega_SwitchPlayerTurn_" data-uid="SandBox.BoardGames.BoardGameSeega.SwitchPlayerTurn*"></a>
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_SwitchPlayerTurn" data-uid="SandBox.BoardGames.BoardGameSeega.SwitchPlayerTurn"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_SwitchPlayerTurn" class="expander" data-toggle="collapse">SwitchPlayerTurn()</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_SwitchPlayerTurn" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void SwitchPlayerTurn()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SandBox.BoardGames.BoardGameBase.html#SandBox_BoardGames_BoardGameBase_SwitchPlayerTurn">BoardGameBase.SwitchPlayerTurn()</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="SandBox_BoardGames_BoardGameSeega_TakeBoardSnapshot_" data-uid="SandBox.BoardGames.BoardGameSeega.TakeBoardSnapshot*"></a>
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_TakeBoardSnapshot" data-uid="SandBox.BoardGames.BoardGameSeega.TakeBoardSnapshot"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_TakeBoardSnapshot" class="expander" data-toggle="collapse">TakeBoardSnapshot()</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_TakeBoardSnapshot" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BoardGameSeega.BoardInformation TakeBoardSnapshot()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="SandBox.BoardGames.BoardGameSeega.BoardInformation.html">BoardGameSeega.BoardInformation</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="SandBox_BoardGames_BoardGameSeega_UndoMove_" data-uid="SandBox.BoardGames.BoardGameSeega.UndoMove*"></a>
+  
+  <h4 id="SandBox_BoardGames_BoardGameSeega_UndoMove_SandBox_BoardGames_BoardGameSeega_BoardInformation__" data-uid="SandBox.BoardGames.BoardGameSeega.UndoMove(SandBox.BoardGames.BoardGameSeega.BoardInformation@)"><a href="#collapsible-SandBox_BoardGames_BoardGameSeega_UndoMove_SandBox_BoardGames_BoardGameSeega_BoardInformation__" class="expander" data-toggle="collapse">UndoMove(ref BoardGameSeega.BoardInformation)</a></h4>
+  
+  <div id="collapsible-SandBox_BoardGames_BoardGameSeega_UndoMove_SandBox_BoardGames_BoardGameSeega_BoardInformation__" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UndoMove(ref BoardGameSeega.BoardInformation board)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="SandBox.BoardGames.BoardGameSeega.BoardInformation.html">BoardGameSeega.BoardInformation</a></span>
+        <span class="parametername">board</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+</article>
+          </div>
+          <div class="contribution-panel mobile-hide">
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Unofficial Bannerlord API Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

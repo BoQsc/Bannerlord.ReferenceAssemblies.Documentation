@@ -1,0 +1,511 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CampaignBehaviorBase
+   | Unofficial Bannerlord API Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CampaignBehaviorBase
+   | Unofficial Bannerlord API Documentation ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/collapse-container.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                  </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TaleWorlds.CampaignSystem.CampaignBehaviorBase">
+  <h1 id="TaleWorlds_CampaignSystem_CampaignBehaviorBase" data-uid="TaleWorlds.CampaignSystem.CampaignBehaviorBase">Class CampaignBehaviorBase
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">CampaignBehaviorBase</span></div>
+  </div>
+  
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.AgingCampaignBehavior.html">AgingCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.AiBehaviors.AiArmyMemberBehavior.html">AiArmyMemberBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.AiBehaviors.AiBanditPatrollingBehavior.html">AiBanditPatrollingBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.AiBehaviors.AiEngagePartyBehavior.html">AiEngagePartyBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.AiBehaviors.AiJoinNearbyMapEventBehavior.html">AiJoinNearbyMapEventBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.AiBehaviors.AiMilitaryBehavior.html">AiMilitaryBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.AiBehaviors.AiPartyThinkBehavior.html">AiPartyThinkBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.AiBehaviors.AiPatrollingBehavior.html">AiPatrollingBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.AiBehaviors.AiVisitSettlementBehavior.html">AiVisitSettlementBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.BackstoryCampaignBehavior.html">BackstoryCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.BanditsCampaignBehavior.html">BanditsCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.BannerCampaignBehavior.html">BannerCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.DiplomaticBartersBehavior.html">DiplomaticBartersBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.FiefBarterBehavior.html">FiefBarterBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.GoldBarterBehavior.html">GoldBarterBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.ItemBarterBehavior.html">ItemBarterBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.LiftSiegeBarterBehavior.html">LiftSiegeBarterBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.MarriageBarterBehavior.html">MarriageBarterBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.SetPrisonerFreeBarterBehavior.html">SetPrisonerFreeBarterBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.BarterBehaviors.TransferPrisonerBarterBehavior.html">TransferPrisonerBarterBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.BattleCampaignBehavior.html">BattleCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.BuildingsCampaignBehavior.html">BuildingsCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CampaignBattleRecoveryBehavior.html">CampaignBattleRecoveryBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CampaignWarManagerBehavior.html">CampaignWarManagerBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CaravansCampaignBehavior.html">CaravansCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CharacterDevelopmentCampaignBehavior.html">CharacterDevelopmentCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CharacterRelationCampaignBehavior.html">CharacterRelationCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CheatsCampaignBehavior.html">CheatsCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.ChildManagementCampaignBehavior.html">ChildManagementCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.ClanVariablesCampaignBehavior.html">ClanVariablesCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentCharacterBornBehavior.html">CommentCharacterBornBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentChildbirthBehavior.html">CommentChildbirthBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnChangeRomanticStateBehavior.html">CommentOnChangeRomanticStateBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnChangeSettlementOwnerBehavior.html">CommentOnChangeSettlementOwnerBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnChangeVillageStateBehavior.html">CommentOnChangeVillageStateBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnCharacterKilledBehavior.html">CommentOnCharacterKilledBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnClanLeaderChangedBehavior.html">CommentOnClanLeaderChangedBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnDeclareWarBehavior.html">CommentOnDeclareWarBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnDefeatCharacterBehavior.html">CommentOnDefeatCharacterBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnDestroyMobilePartyBehavior.html">CommentOnDestroyMobilePartyBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnEndPlayerBattleBehavior.html">CommentOnEndPlayerBattleBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnKingdomDestroyedBehavior.html">CommentOnKingdomDestroyedBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnLeaveFactionBehavior.html">CommentOnLeaveFactionBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnMakePeaceBehavior.html">CommentOnMakePeaceBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentOnPlayerMeetLordBehavior.html">CommentOnPlayerMeetLordBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CommentBehaviors.CommentPregnancyBehavior.html">CommentPregnancyBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CompanionGrievanceBehavior.html">CompanionGrievanceBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CompanionsCampaignBehavior.html">CompanionsCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CraftingCampaignBehavior.html">CraftingCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.CrimeCampaignBehavior.html">CrimeCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.DefaultLogsCampaignBehavior.html">DefaultLogsCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.DesertionCampaignBehavior.html">DesertionCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.DisbandPartyCampaignBehavior.html">DisbandPartyCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.DiscardItemsCampaignBehavior.html">DiscardItemsCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.DynamicBodyCampaignBehavior.html">DynamicBodyCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.EducationCampaignBehavior.html">EducationCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.EmissarySystemCampaignBehavior.html">EmissarySystemCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.EncounterGameMenuBehavior.html">EncounterGameMenuBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.FindingItemOnMapBehavior.html">FindingItemOnMapBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.FoodConsumptionBehavior.html">FoodConsumptionBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.GameMenuSelectionBehavior.html">GameMenuSelectionBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.GarrisonTroopsCampaignBehavior.html">GarrisonTroopsCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.GovernorCampaignBehavior.html">GovernorCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.HeroAgentSpawnCampaignBehavior.html">HeroAgentSpawnCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.HeroCreationCampaignBehavior.html">HeroCreationCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.HeroLastSeenUpdaterCampaignBehavior.html">HeroLastSeenUpdaterCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.HeroSpawnCampaignBehavior.html">HeroSpawnCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.HideoutCampaignBehavior.html">HideoutCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.InfluenceGainCampaignBehavior.html">InfluenceGainCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.IssuesCampaignBehavior.html">IssuesCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.ItemConsumptionBehavior.html">ItemConsumptionBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.JournalLogsCampaignBehavior.html">JournalLogsCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.KingdomDecisionProposalBehavior.html">KingdomDecisionProposalBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.LordDefectionCampaignBehavior.html">LordDefectionCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.MapTracksCampaignBehavior.html">MapTracksCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.MilitiasCampaignBehavior.html">MilitiasCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.MobilePartyTrainingBehavior.html">MobilePartyTrainingBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.NotablePowerManagementBehavior.html">NotablePowerManagementBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.NotablesCampaignBehavior.html">NotablesCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.NPCEquipmentsCampaignBehavior.html">NPCEquipmentsCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.OrderOfBattleCampaignBehavior.html">OrderOfBattleCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.OutlawClansCampaignBehavior.html">OutlawClansCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.PartiesBuyFoodCampaignBehavior.html">PartiesBuyFoodCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.PartiesBuyHorseCampaignBehavior.html">PartiesBuyHorseCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.PartiesSellLootCampaignBehavior.html">PartiesSellLootCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.PartiesSellPrisonerCampaignBehavior.html">PartiesSellPrisonerCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.PartyHealCampaignBehavior.html">PartyHealCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.PartyRolesCampaignBehavior.html">PartyRolesCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.PayCommonAreaProfitCampaignBehavior.html">PayCommonAreaProfitCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.PeaceOfferCampaignBehavior.html">PeaceOfferCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.PerkActivationHandlerCampaignBehavior.html">PerkActivationHandlerCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.PlayerArmyWaitBehavior.html">PlayerArmyWaitBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.PlayerCaptivityCampaignBehavior.html">PlayerCaptivityCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.PlayerTownVisitCampaignBehavior.html">PlayerTownVisitCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.PlayerTrackCompanionBehavior.html">PlayerTrackCompanionBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.PlayerVariablesBehavior.html">PlayerVariablesBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.PoliticalStagnationAndBorderIncidentCampaignBehavior.html">PoliticalStagnationAndBorderIncidentCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.PregnancyCampaignBehavior.html">PregnancyCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.PrisonBreakCampaignBehavior.html">PrisonBreakCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.PrisonerCaptureCampaignBehavior.html">PrisonerCaptureCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.PrisonerRecruitCampaignBehavior.html">PrisonerRecruitCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.PrisonerReleaseCampaignBehavior.html">PrisonerReleaseCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.RansomOfferCampaignBehavior.html">RansomOfferCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.RebellionsCampaignBehavior.html">RebellionsCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.RecruitmentCampaignBehavior.html">RecruitmentCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.RecruitPrisonersCampaignBehavior.html">RecruitPrisonersCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.RetrainOutlawPartyMembersBehavior.html">RetrainOutlawPartyMembersBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.RomanceCampaignBehavior.html">RomanceCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.SallyOutsCampaignBehavior.html">SallyOutsCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.SettlementClaimantCampaignBehavior.html">SettlementClaimantCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.SettlementVariablesBehavior.html">SettlementVariablesBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.SiegeAftermathCampaignBehavior.html">SiegeAftermathCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.SiegeEventCampaignBehavior.html">SiegeEventCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.TavernEmployeesCampaignBehavior.html">TavernEmployeesCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.TownMerchantsCampaignBehavior.html">TownMerchantsCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.TownSecurityCampaignBehavior.html">TownSecurityCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.TradeCampaignBehavior.html">TradeCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.TradeRumorsCampaignBehavior.html">TradeRumorsCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.TradeSkillCampaingBehavior.html">TradeSkillCampaingBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.ViewDataTrackerCampaignBehavior.html">ViewDataTrackerCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.VillageGoodProductionCampaignBehavior.html">VillageGoodProductionCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.VillageHealCampaignBehavior.html">VillageHealCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.VillagerCampaignBehavior.html">VillagerCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.CampaignBehaviors.WorkshopsCampaignBehavior.html">WorkshopsCampaignBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.ArmyNeedsSuppliesIssueBehavior.html">ArmyNeedsSuppliesIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.ArtisanCantSellProductsAtAFairPriceIssueBehavior.html">ArtisanCantSellProductsAtAFairPriceIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.ArtisanOverpricedGoodsIssueBehavior.html">ArtisanOverpricedGoodsIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.BettingFraudIssueBehavior.html">BettingFraudIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.CapturedByBountyHuntersIssueBehavior.html">CapturedByBountyHuntersIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.CaravanAmbushIssueBehavior.html">CaravanAmbushIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.EscortMerchantCaravanIssueBehavior.html">EscortMerchantCaravanIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.ExtortionByDesertersIssueBehavior.html">ExtortionByDesertersIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.GangLeaderNeedsRecruitsIssueBehavior.html">GangLeaderNeedsRecruitsIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.GangLeaderNeedsToOffloadStolenGoodsIssueBehavior.html">GangLeaderNeedsToOffloadStolenGoodsIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.GangLeaderNeedsWeaponsIssueQuestBehavior.html">GangLeaderNeedsWeaponsIssueQuestBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.HeadmanNeedsGrainIssueBehavior.html">HeadmanNeedsGrainIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.HeadmanNeedsToDeliverAHerdIssueBehavior.html">HeadmanNeedsToDeliverAHerdIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.HeadmanVillageNeedsDraughtAnimalsIssueBehavior.html">HeadmanVillageNeedsDraughtAnimalsIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.LadysKnightOutIssueBehavior.html">LadysKnightOutIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.LandLordCompanyOfTroubleIssueBehavior.html">LandLordCompanyOfTroubleIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.LandlordNeedsAccessToVillageCommonsIssueBehavior.html">LandlordNeedsAccessToVillageCommonsIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.LandLordNeedsManualLaborersIssueBehavior.html">LandLordNeedsManualLaborersIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.LandLordTheArtOfTheTradeIssueBehavior.html">LandLordTheArtOfTheTradeIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.LandlordTrainingForRetainersIssueBehavior.html">LandlordTrainingForRetainersIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.LesserNobleRevoltIssueBehavior.html">LesserNobleRevoltIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.LordNeedsGarrisonTroopsIssueQuestBehavior.html">LordNeedsGarrisonTroopsIssueQuestBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.LordNeedsHorsesIssueBehavior.html">LordNeedsHorsesIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.LordsNeedsTutorIssueBehavior.html">LordsNeedsTutorIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.LordWantsRivalCapturedIssueBehavior.html">LordWantsRivalCapturedIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.MerchantArmyOfPoachersIssueBehavior.html">MerchantArmyOfPoachersIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.MerchantNeedsHelpWithOutlawsIssueQuestBehavior.html">MerchantNeedsHelpWithOutlawsIssueQuestBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.NearbyBanditBaseIssueBehavior.html">NearbyBanditBaseIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.RaidAnEnemyTerritoryIssueBehavior.html">RaidAnEnemyTerritoryIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.RevenueFarmingIssueBehavior.html">RevenueFarmingIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.ScoutEnemyGarrisonsIssueBehavior.html">ScoutEnemyGarrisonsIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.TheConquestOfSettlementIssueBehavior.html">TheConquestOfSettlementIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.Issues.VillageNeedsToolsIssueBehavior.html">VillageNeedsToolsIssueBehavior</a></div>
+      <div class="level2"><a class="xref" href="TaleWorlds.CampaignSystem.TournamentGames.TournamentCampaignBehavior.html">TournamentCampaignBehavior</a></div>
+  
+  
+  <h6><strong>Namespace</strong>: <a class="xref" href="TaleWorlds.CampaignSystem.html">TaleWorlds.CampaignSystem</a></h6>
+  <h6><strong>Assembly</strong>: TaleWorlds.CampaignSystem.dll</h6>
+  
+  <h5 id="TaleWorlds_CampaignSystem_CampaignBehaviorBase_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class CampaignBehaviorBase : Object, ICampaignBehavior</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_CampaignBehaviorBase__ctor_" data-uid="TaleWorlds.CampaignSystem.CampaignBehaviorBase.#ctor*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_CampaignBehaviorBase__ctor" data-uid="TaleWorlds.CampaignSystem.CampaignBehaviorBase.#ctor"><a href="#collapsible-TaleWorlds_CampaignSystem_CampaignBehaviorBase__ctor" class="expander" data-toggle="collapse">CampaignBehaviorBase()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_CampaignBehaviorBase__ctor" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CampaignBehaviorBase()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_CampaignBehaviorBase__ctor_" data-uid="TaleWorlds.CampaignSystem.CampaignBehaviorBase.#ctor*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_CampaignBehaviorBase__ctor_System_String_" data-uid="TaleWorlds.CampaignSystem.CampaignBehaviorBase.#ctor(System.String)"><a href="#collapsible-TaleWorlds_CampaignSystem_CampaignBehaviorBase__ctor_System_String_" class="expander" data-toggle="collapse">CampaignBehaviorBase(String)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_CampaignBehaviorBase__ctor_System_String_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CampaignBehaviorBase(string stringId)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></span>
+        <span class="parametername">stringId</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  
+  <h4 id="TaleWorlds_CampaignSystem_CampaignBehaviorBase_StringId" data-uid="TaleWorlds.CampaignSystem.CampaignBehaviorBase.StringId"><a href="#collapsible-TaleWorlds_CampaignSystem_CampaignBehaviorBase_StringId" class="expander" data-toggle="collapse">StringId</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_CampaignBehaviorBase_StringId" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly string StringId</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_CampaignBehaviorBase_GetCampaignBehavior_" data-uid="TaleWorlds.CampaignSystem.CampaignBehaviorBase.GetCampaignBehavior*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_CampaignBehaviorBase_GetCampaignBehavior__1" data-uid="TaleWorlds.CampaignSystem.CampaignBehaviorBase.GetCampaignBehavior``1"><a href="#collapsible-TaleWorlds_CampaignSystem_CampaignBehaviorBase_GetCampaignBehavior__1" class="expander" data-toggle="collapse">GetCampaignBehavior&lt;T&gt;()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_CampaignBehaviorBase_GetCampaignBehavior__1" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T GetCampaignBehavior&lt;T&gt;()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">T</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">T</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_CampaignBehaviorBase_RegisterEvents_" data-uid="TaleWorlds.CampaignSystem.CampaignBehaviorBase.RegisterEvents*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_CampaignBehaviorBase_RegisterEvents" data-uid="TaleWorlds.CampaignSystem.CampaignBehaviorBase.RegisterEvents"><a href="#collapsible-TaleWorlds_CampaignSystem_CampaignBehaviorBase_RegisterEvents" class="expander" data-toggle="collapse">RegisterEvents()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_CampaignBehaviorBase_RegisterEvents" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void RegisterEvents()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  <h5 class="implements">Implements</h5>
+      <div><a class="xref" href="TaleWorlds.CampaignSystem.ICampaignBehavior.html#TaleWorlds_CampaignSystem_ICampaignBehavior_RegisterEvents">ICampaignBehavior.RegisterEvents()</a></div>
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_CampaignBehaviorBase_SyncData_" data-uid="TaleWorlds.CampaignSystem.CampaignBehaviorBase.SyncData*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_CampaignBehaviorBase_SyncData_TaleWorlds_CampaignSystem_IDataStore_" data-uid="TaleWorlds.CampaignSystem.CampaignBehaviorBase.SyncData(TaleWorlds.CampaignSystem.IDataStore)"><a href="#collapsible-TaleWorlds_CampaignSystem_CampaignBehaviorBase_SyncData_TaleWorlds_CampaignSystem_IDataStore_" class="expander" data-toggle="collapse">SyncData(IDataStore)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_CampaignBehaviorBase_SyncData_TaleWorlds_CampaignSystem_IDataStore_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void SyncData(IDataStore dataStore)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.CampaignSystem.IDataStore.html">IDataStore</a></span>
+        <span class="parametername">dataStore</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+</article>
+          </div>
+          <div class="contribution-panel mobile-hide">
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Unofficial Bannerlord API Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

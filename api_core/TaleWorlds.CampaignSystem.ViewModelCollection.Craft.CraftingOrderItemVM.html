@@ -1,0 +1,856 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CraftingOrderItemVM
+   | Unofficial Bannerlord API Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CraftingOrderItemVM
+   | Unofficial Bannerlord API Documentation ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/collapse-container.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                  </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM">
+  <h1 id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM">Class CraftingOrderItemVM
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="TaleWorlds.Library.ViewModel.html">ViewModel</a></div>
+    <div class="level2"><span class="xref">CraftingOrderItemVM</span></div>
+  </div>
+  
+  
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_UIDebugMode">ViewModel.UIDebugMode</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_add_PropertyChangedWithValue_TaleWorlds_Library_PropertyChangedWithValueEventHandler_">ViewModel.add_PropertyChangedWithValue(PropertyChangedWithValueEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_remove_PropertyChangedWithValue_TaleWorlds_Library_PropertyChangedWithValueEventHandler_">ViewModel.remove_PropertyChangedWithValue(PropertyChangedWithValueEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_SetField__1___0____0_System_String_">ViewModel.SetField&lt;T&gt;(T, T, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_OnPropertyChanged_System_String_">ViewModel.OnPropertyChanged(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_OnPropertyChangedWithValue_System_Object_System_String_">ViewModel.OnPropertyChangedWithValue(Object, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_GetViewModelAtPath_TaleWorlds_Library_BindingPath_System_Boolean_">ViewModel.GetViewModelAtPath(BindingPath, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_GetViewModelAtPath_TaleWorlds_Library_BindingPath_">ViewModel.GetViewModelAtPath(BindingPath)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_GetPropertyValue_System_String_TaleWorlds_Library_PropertyTypeFeeder_">ViewModel.GetPropertyValue(String, PropertyTypeFeeder)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_GetPropertyValue_System_String_">ViewModel.GetPropertyValue(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_GetPropertyType_System_String_">ViewModel.GetPropertyType(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_SetPropertyValue_System_String_System_Object_">ViewModel.SetPropertyValue(String, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_OnFinalize">ViewModel.OnFinalize()</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_ExecuteCommand_System_String_System_Object___">ViewModel.ExecuteCommand(String, Object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_Properties">ViewModel.Properties</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_PropertyChanged">ViewModel.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_PropertyChangedWithValue">ViewModel.PropertyChangedWithValue</a>
+    </div>
+  </div>
+  
+  <h6><strong>Namespace</strong>: <a class="xref" href="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.html">TaleWorlds.CampaignSystem.ViewModelCollection.Craft</a></h6>
+  <h6><strong>Assembly</strong>: TaleWorlds.CampaignSystem.ViewModelCollection.dll</h6>
+  
+  <h5 id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CraftingOrderItemVM : ViewModel, IViewModel, INotifyPropertyChanged</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM__ctor_" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.#ctor*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM__ctor_TaleWorlds_CampaignSystem_CraftingSystem_CraftingOrder_System_Action_TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM__System_Func_TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingAvailableHeroItemVM__System_Collections_Generic_List_TaleWorlds_Core_CraftingStatData__" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.#ctor(TaleWorlds.CampaignSystem.CraftingSystem.CraftingOrder,System.Action{TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM},System.Func{TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingAvailableHeroItemVM},System.Collections.Generic.List{TaleWorlds.Core.CraftingStatData})"><a href="#collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM__ctor_TaleWorlds_CampaignSystem_CraftingSystem_CraftingOrder_System_Action_TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM__System_Func_TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingAvailableHeroItemVM__System_Collections_Generic_List_TaleWorlds_Core_CraftingStatData__" class="expander" data-toggle="collapse">CraftingOrderItemVM(CraftingOrder, Action&lt;CraftingOrderItemVM&gt;, Func&lt;CraftingAvailableHeroItemVM&gt;, List&lt;CraftingStatData&gt;)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM__ctor_TaleWorlds_CampaignSystem_CraftingSystem_CraftingOrder_System_Action_TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM__System_Func_TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingAvailableHeroItemVM__System_Collections_Generic_List_TaleWorlds_Core_CraftingStatData__" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CraftingOrderItemVM(CraftingOrder order, Action&lt;CraftingOrderItemVM&gt; onSelection, Func&lt;CraftingAvailableHeroItemVM&gt; getCurrentCraftingHero, List&lt;CraftingStatData&gt; orderStatDatas)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.CampaignSystem.CraftingSystem.CraftingOrder.html">CraftingOrder</a></span>
+        <span class="parametername">order</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.html">CraftingOrderItemVM</a>&gt;</span>
+        <span class="parametername">onSelection</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingAvailableHeroItemVM.html">CraftingAvailableHeroItemVM</a>&gt;</span>
+        <span class="parametername">getCurrentCraftingHero</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="TaleWorlds.Core.CraftingStatData.html">CraftingStatData</a>&gt;</span>
+        <span class="parametername">orderStatDatas</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_CraftingOrder_" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.CraftingOrder*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_CraftingOrder" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.CraftingOrder"><a href="#collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_CraftingOrder" class="expander" data-toggle="collapse">CraftingOrder</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_CraftingOrder" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CraftingOrder CraftingOrder { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.CraftingSystem.CraftingOrder.html">CraftingOrder</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_DisabledReasonHint_" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.DisabledReasonHint*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_DisabledReasonHint" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.DisabledReasonHint"><a href="#collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_DisabledReasonHint" class="expander" data-toggle="collapse">DisabledReasonHint</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_DisabledReasonHint" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public BasicTooltipViewModel DisabledReasonHint { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Core.ViewModelCollection.BasicTooltipViewModel.html">BasicTooltipViewModel</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_HasAvailableHeroes_" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.HasAvailableHeroes*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_HasAvailableHeroes" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.HasAvailableHeroes"><a href="#collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_HasAvailableHeroes" class="expander" data-toggle="collapse">HasAvailableHeroes</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_HasAvailableHeroes" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public bool HasAvailableHeroes { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_IsDifficultySuitableForHero_" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.IsDifficultySuitableForHero*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_IsDifficultySuitableForHero" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.IsDifficultySuitableForHero"><a href="#collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_IsDifficultySuitableForHero" class="expander" data-toggle="collapse">IsDifficultySuitableForHero</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_IsDifficultySuitableForHero" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public bool IsDifficultySuitableForHero { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_IsEnabled_" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.IsEnabled*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_IsEnabled" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.IsEnabled"><a href="#collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_IsEnabled" class="expander" data-toggle="collapse">IsEnabled</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_IsEnabled" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public bool IsEnabled { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_IsSelected_" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.IsSelected*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_IsSelected" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.IsSelected"><a href="#collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_IsSelected" class="expander" data-toggle="collapse">IsSelected</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_IsSelected" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public bool IsSelected { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderDifficultyLabelText_" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.OrderDifficultyLabelText*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderDifficultyLabelText" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.OrderDifficultyLabelText"><a href="#collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderDifficultyLabelText" class="expander" data-toggle="collapse">OrderDifficultyLabelText</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderDifficultyLabelText" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public string OrderDifficultyLabelText { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderDifficultyValueText_" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.OrderDifficultyValueText*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderDifficultyValueText" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.OrderDifficultyValueText"><a href="#collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderDifficultyValueText" class="expander" data-toggle="collapse">OrderDifficultyValueText</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderDifficultyValueText" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public string OrderDifficultyValueText { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderNumberText_" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.OrderNumberText*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderNumberText" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.OrderNumberText"><a href="#collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderNumberText" class="expander" data-toggle="collapse">OrderNumberText</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderNumberText" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public string OrderNumberText { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderOwnerData_" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.OrderOwnerData*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderOwnerData" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.OrderOwnerData"><a href="#collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderOwnerData" class="expander" data-toggle="collapse">OrderOwnerData</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderOwnerData" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public HeroVM OrderOwnerData { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.CampaignSystem.ViewModelCollection.HeroVM.html">HeroVM</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderPrice_" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.OrderPrice*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderPrice" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.OrderPrice"><a href="#collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderPrice" class="expander" data-toggle="collapse">OrderPrice</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderPrice" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public int OrderPrice { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderWeaponType_" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.OrderWeaponType*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderWeaponType" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.OrderWeaponType"><a href="#collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderWeaponType" class="expander" data-toggle="collapse">OrderWeaponType</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderWeaponType" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public string OrderWeaponType { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderWeaponTypeCode_" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.OrderWeaponTypeCode*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderWeaponTypeCode" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.OrderWeaponTypeCode"><a href="#collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderWeaponTypeCode" class="expander" data-toggle="collapse">OrderWeaponTypeCode</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_OrderWeaponTypeCode" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public string OrderWeaponTypeCode { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_WeaponAttributes_" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.WeaponAttributes*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_WeaponAttributes" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.WeaponAttributes"><a href="#collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_WeaponAttributes" class="expander" data-toggle="collapse">WeaponAttributes</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_WeaponAttributes" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public MBBindingList&lt;WeaponAttributeVM&gt; WeaponAttributes { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBBindingList-1.html">MBBindingList</a>&lt;<a class="xref" href="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.WeaponDesign.WeaponAttributeVM.html">WeaponAttributeVM</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_ExecuteSelectOrder_" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.ExecuteSelectOrder*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_ExecuteSelectOrder" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.ExecuteSelectOrder"><a href="#collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_ExecuteSelectOrder" class="expander" data-toggle="collapse">ExecuteSelectOrder()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_ExecuteSelectOrder" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ExecuteSelectOrder()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_RefreshStats_" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.RefreshStats*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_RefreshStats" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.RefreshStats"><a href="#collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_RefreshStats" class="expander" data-toggle="collapse">RefreshStats()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_RefreshStats" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RefreshStats()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_RefreshValues_" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.RefreshValues*"></a>
+  
+  <h4 id="TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_RefreshValues" data-uid="TaleWorlds.CampaignSystem.ViewModelCollection.Craft.CraftingOrderItemVM.RefreshValues"><a href="#collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_RefreshValues" class="expander" data-toggle="collapse">RefreshValues()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_CampaignSystem_ViewModelCollection_Craft_CraftingOrderItemVM_RefreshValues" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void RefreshValues()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_RefreshValues">ViewModel.RefreshValues()</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+</article>
+          </div>
+          <div class="contribution-panel mobile-hide">
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Unofficial Bannerlord API Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

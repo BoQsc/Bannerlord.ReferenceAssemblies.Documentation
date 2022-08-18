@@ -1,0 +1,1613 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class OrderOfBattleVM
+   | Unofficial Bannerlord API Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class OrderOfBattleVM
+   | Unofficial Bannerlord API Documentation ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/collapse-container.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                  </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM">
+  <h1 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM">Class OrderOfBattleVM
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="TaleWorlds.Library.ViewModel.html">ViewModel</a></div>
+    <div class="level2"><span class="xref">OrderOfBattleVM</span></div>
+  </div>
+  
+  
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_UIDebugMode">ViewModel.UIDebugMode</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_add_PropertyChangedWithValue_TaleWorlds_Library_PropertyChangedWithValueEventHandler_">ViewModel.add_PropertyChangedWithValue(PropertyChangedWithValueEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_remove_PropertyChangedWithValue_TaleWorlds_Library_PropertyChangedWithValueEventHandler_">ViewModel.remove_PropertyChangedWithValue(PropertyChangedWithValueEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_SetField__1___0____0_System_String_">ViewModel.SetField&lt;T&gt;(T, T, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_OnPropertyChanged_System_String_">ViewModel.OnPropertyChanged(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_OnPropertyChangedWithValue_System_Object_System_String_">ViewModel.OnPropertyChangedWithValue(Object, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_GetViewModelAtPath_TaleWorlds_Library_BindingPath_System_Boolean_">ViewModel.GetViewModelAtPath(BindingPath, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_GetViewModelAtPath_TaleWorlds_Library_BindingPath_">ViewModel.GetViewModelAtPath(BindingPath)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_GetPropertyValue_System_String_TaleWorlds_Library_PropertyTypeFeeder_">ViewModel.GetPropertyValue(String, PropertyTypeFeeder)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_GetPropertyValue_System_String_">ViewModel.GetPropertyValue(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_GetPropertyType_System_String_">ViewModel.GetPropertyType(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_SetPropertyValue_System_String_System_Object_">ViewModel.SetPropertyValue(String, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_ExecuteCommand_System_String_System_Object___">ViewModel.ExecuteCommand(String, Object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_Properties">ViewModel.Properties</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_PropertyChanged">ViewModel.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_PropertyChangedWithValue">ViewModel.PropertyChangedWithValue</a>
+    </div>
+  </div>
+  
+  <h6><strong>Namespace</strong>: <a class="xref" href="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.html">TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle</a></h6>
+  <h6><strong>Assembly</strong>: TaleWorlds.MountAndBlade.ViewModelCollection.dll</h6>
+  
+  <h5 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class OrderOfBattleVM : ViewModel, IViewModel, INotifyPropertyChanged</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM__ctor_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.#ctor*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM__ctor" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.#ctor"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM__ctor" class="expander" data-toggle="collapse">OrderOfBattleVM()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM__ctor" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OrderOfBattleVM()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM__allFormations" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM._allFormations"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM__allFormations" class="expander" data-toggle="collapse">_allFormations</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM__allFormations" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected List&lt;OrderOfBattleFormationItemVM&gt; _allFormations</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleFormationItemVM.html">OrderOfBattleFormationItemVM</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM__totalFormationCount_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM._totalFormationCount*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM__totalFormationCount" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM._totalFormationCount"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM__totalFormationCount" class="expander" data-toggle="collapse">_totalFormationCount</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM__totalFormationCount" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int _totalFormationCount { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_AreCameraControlsEnabled_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.AreCameraControlsEnabled*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_AreCameraControlsEnabled" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.AreCameraControlsEnabled"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_AreCameraControlsEnabled" class="expander" data-toggle="collapse">AreCameraControlsEnabled</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_AreCameraControlsEnabled" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public bool AreCameraControlsEnabled { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_AutoDeployText_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.AutoDeployText*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_AutoDeployText" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.AutoDeployText"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_AutoDeployText" class="expander" data-toggle="collapse">AutoDeployText</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_AutoDeployText" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public string AutoDeployText { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_BeginMissionText_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.BeginMissionText*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_BeginMissionText" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.BeginMissionText"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_BeginMissionText" class="expander" data-toggle="collapse">BeginMissionText</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_BeginMissionText" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public string BeginMissionText { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_CanStartMission_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.CanStartMission*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_CanStartMission" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.CanStartMission"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_CanStartMission" class="expander" data-toggle="collapse">CanStartMission</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_CanStartMission" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public bool CanStartMission { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_Commanders_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.Commanders*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_Commanders" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.Commanders"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_Commanders" class="expander" data-toggle="collapse">Commanders</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_Commanders" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public MBBindingList&lt;OrderOfBattleHeroItemVM&gt; Commanders { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBBindingList-1.html">MBBindingList</a>&lt;<a class="xref" href="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleHeroItemVM.html">OrderOfBattleHeroItemVM</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_CurrentConfiguration_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.CurrentConfiguration*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_CurrentConfiguration" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.CurrentConfiguration"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_CurrentConfiguration" class="expander" data-toggle="collapse">CurrentConfiguration</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_CurrentConfiguration" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;(int, List&lt;int&gt;)&gt; CurrentConfiguration { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetuple-2">(, )</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;&gt;&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_DoneText_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.DoneText*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_DoneText" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.DoneText"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_DoneText" class="expander" data-toggle="collapse">DoneText</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_DoneText" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public string DoneText { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_FormationsFirstHalf_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.FormationsFirstHalf*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_FormationsFirstHalf" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.FormationsFirstHalf"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_FormationsFirstHalf" class="expander" data-toggle="collapse">FormationsFirstHalf</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_FormationsFirstHalf" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public MBBindingList&lt;OrderOfBattleFormationItemVM&gt; FormationsFirstHalf { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBBindingList-1.html">MBBindingList</a>&lt;<a class="xref" href="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleFormationItemVM.html">OrderOfBattleFormationItemVM</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_FormationsSecondHalf_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.FormationsSecondHalf*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_FormationsSecondHalf" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.FormationsSecondHalf"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_FormationsSecondHalf" class="expander" data-toggle="collapse">FormationsSecondHalf</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_FormationsSecondHalf" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public MBBindingList&lt;OrderOfBattleFormationItemVM&gt; FormationsSecondHalf { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBBindingList-1.html">MBBindingList</a>&lt;<a class="xref" href="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleFormationItemVM.html">OrderOfBattleFormationItemVM</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_HeroSelectionTitleText_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.HeroSelectionTitleText*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_HeroSelectionTitleText" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.HeroSelectionTitleText"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_HeroSelectionTitleText" class="expander" data-toggle="collapse">HeroSelectionTitleText</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_HeroSelectionTitleText" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public string HeroSelectionTitleText { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_IsEnabled_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.IsEnabled*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_IsEnabled" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.IsEnabled"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_IsEnabled" class="expander" data-toggle="collapse">IsEnabled</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_IsEnabled" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public bool IsEnabled { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_IsHeroSelectionShown_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.IsHeroSelectionShown*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_IsHeroSelectionShown" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.IsHeroSelectionShown"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_IsHeroSelectionShown" class="expander" data-toggle="collapse">IsHeroSelectionShown</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_IsHeroSelectionShown" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public bool IsHeroSelectionShown { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_IsOrderPreconfigured_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.IsOrderPreconfigured*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_IsOrderPreconfigured" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.IsOrderPreconfigured"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_IsOrderPreconfigured" class="expander" data-toggle="collapse">IsOrderPreconfigured</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_IsOrderPreconfigured" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsOrderPreconfigured { get; protected set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_IsPlayerGeneral_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.IsPlayerGeneral*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_IsPlayerGeneral" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.IsPlayerGeneral"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_IsPlayerGeneral" class="expander" data-toggle="collapse">IsPlayerGeneral</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_IsPlayerGeneral" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public bool IsPlayerGeneral { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_MissingFormationsText_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.MissingFormationsText*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_MissingFormationsText" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.MissingFormationsText"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_MissingFormationsText" class="expander" data-toggle="collapse">MissingFormationsText</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_MissingFormationsText" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public string MissingFormationsText { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_MissionStartBlockerClasses_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.MissionStartBlockerClasses*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_MissionStartBlockerClasses" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.MissionStartBlockerClasses"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_MissionStartBlockerClasses" class="expander" data-toggle="collapse">MissionStartBlockerClasses</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_MissionStartBlockerClasses" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public MBBindingList&lt;OrderOfBattleFormationClassItemVM&gt; MissionStartBlockerClasses { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBBindingList-1.html">MBBindingList</a>&lt;<a class="xref" href="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleFormationClassItemVM.html">OrderOfBattleFormationClassItemVM</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_UnassignedHeroes_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.UnassignedHeroes*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_UnassignedHeroes" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.UnassignedHeroes"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_UnassignedHeroes" class="expander" data-toggle="collapse">UnassignedHeroes</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_UnassignedHeroes" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public MBBindingList&lt;OrderOfBattleHeroItemVM&gt; UnassignedHeroes { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.Library.MBBindingList-1.html">MBBindingList</a>&lt;<a class="xref" href="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleHeroItemVM.html">OrderOfBattleHeroItemVM</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_UnassignedHeroesExist_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.UnassignedHeroesExist*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_UnassignedHeroesExist" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.UnassignedHeroesExist"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_UnassignedHeroesExist" class="expander" data-toggle="collapse">UnassignedHeroesExist</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_UnassignedHeroesExist" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataSourceProperty]
+public bool UnassignedHeroesExist { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_ClearFormationItem_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.ClearFormationItem*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_ClearFormationItem_TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleFormationItemVM_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.ClearFormationItem(TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleFormationItemVM)"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_ClearFormationItem_TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleFormationItemVM_" class="expander" data-toggle="collapse">ClearFormationItem(OrderOfBattleFormationItemVM)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_ClearFormationItem_TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleFormationItemVM_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ClearFormationItem(OrderOfBattleFormationItemVM formationItem)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleFormationItemVM.html">OrderOfBattleFormationItemVM</a></span>
+        <span class="parametername">formationItem</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_DeselectAllFormations_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.DeselectAllFormations*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_DeselectAllFormations" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.DeselectAllFormations"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_DeselectAllFormations" class="expander" data-toggle="collapse">DeselectAllFormations()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_DeselectAllFormations" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeselectAllFormations()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_ExecuteAutoDeploy_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.ExecuteAutoDeploy*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_ExecuteAutoDeploy" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.ExecuteAutoDeploy"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_ExecuteAutoDeploy" class="expander" data-toggle="collapse">ExecuteAutoDeploy()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_ExecuteAutoDeploy" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ExecuteAutoDeploy()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_ExecuteBeginMission_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.ExecuteBeginMission*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_ExecuteBeginMission" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.ExecuteBeginMission"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_ExecuteBeginMission" class="expander" data-toggle="collapse">ExecuteBeginMission()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_ExecuteBeginMission" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ExecuteBeginMission()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_ExecuteCloseHeroAssignment_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.ExecuteCloseHeroAssignment*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_ExecuteCloseHeroAssignment" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.ExecuteCloseHeroAssignment"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_ExecuteCloseHeroAssignment" class="expander" data-toggle="collapse">ExecuteCloseHeroAssignment()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_ExecuteCloseHeroAssignment" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ExecuteCloseHeroAssignment()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_FinalizeDeployment_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.FinalizeDeployment*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_FinalizeDeployment" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.FinalizeDeployment"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_FinalizeDeployment" class="expander" data-toggle="collapse">FinalizeDeployment()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_FinalizeDeployment" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FinalizeDeployment()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_FocusFormationItemAtIndex_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.FocusFormationItemAtIndex*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_FocusFormationItemAtIndex_System_Int32_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.FocusFormationItemAtIndex(System.Int32)"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_FocusFormationItemAtIndex_System_Int32_" class="expander" data-toggle="collapse">FocusFormationItemAtIndex(Int32)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_FocusFormationItemAtIndex_System_Int32_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FocusFormationItemAtIndex(int index)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></span>
+        <span class="parametername">index</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_GetAgentTooltip_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.GetAgentTooltip*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_GetAgentTooltip_TaleWorlds_MountAndBlade_Agent_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.GetAgentTooltip(TaleWorlds.MountAndBlade.Agent)"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_GetAgentTooltip_TaleWorlds_MountAndBlade_Agent_" class="expander" data-toggle="collapse">GetAgentTooltip(Agent)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_GetAgentTooltip_TaleWorlds_MountAndBlade_Agent_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual List&lt;TooltipProperty&gt; GetAgentTooltip(Agent agent)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.MountAndBlade.Agent.html">Agent</a></span>
+        <span class="parametername">agent</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="TaleWorlds.Core.ViewModelCollection.TooltipProperty.html">TooltipProperty</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_Initialize_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.Initialize*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_Initialize_TaleWorlds_MountAndBlade_Mission_TaleWorlds_Engine_Camera_System_Action_System_Int32__System_Action_System_Int32__System_Action_System_Action_System_Collections_Generic_Dictionary_System_Int32_TaleWorlds_MountAndBlade_Agent__System_Action_TaleWorlds_MountAndBlade_Agent__" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.Initialize(TaleWorlds.MountAndBlade.Mission,TaleWorlds.Engine.Camera,System.Action{System.Int32},System.Action{System.Int32},System.Action,System.Action,System.Collections.Generic.Dictionary{System.Int32,TaleWorlds.MountAndBlade.Agent},System.Action{TaleWorlds.MountAndBlade.Agent})"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_Initialize_TaleWorlds_MountAndBlade_Mission_TaleWorlds_Engine_Camera_System_Action_System_Int32__System_Action_System_Int32__System_Action_System_Action_System_Collections_Generic_Dictionary_System_Int32_TaleWorlds_MountAndBlade_Agent__System_Action_TaleWorlds_MountAndBlade_Agent__" class="expander" data-toggle="collapse">Initialize(Mission, Camera, Action&lt;Int32&gt;, Action&lt;Int32&gt;, Action, Action, Dictionary&lt;Int32, Agent&gt;, Action&lt;Agent&gt;)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_Initialize_TaleWorlds_MountAndBlade_Mission_TaleWorlds_Engine_Camera_System_Action_System_Int32__System_Action_System_Int32__System_Action_System_Action_System_Collections_Generic_Dictionary_System_Int32_TaleWorlds_MountAndBlade_Agent__System_Action_TaleWorlds_MountAndBlade_Agent__" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Initialize(Mission mission, Camera missionCamera, Action&lt;int&gt; selectFormationAtIndex, Action&lt;int&gt; deselectFormationAtIndex, Action onAutoDeploy, Action onBeginMission, Dictionary&lt;int, Agent&gt; formationIndicesAndSergeants, Action&lt;Agent&gt; focusOnAgent)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.MountAndBlade.Mission.html">Mission</a></span>
+        <span class="parametername">mission</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.Engine.Camera.html">Camera</a></span>
+        <span class="parametername">missionCamera</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</span>
+        <span class="parametername">selectFormationAtIndex</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</span>
+        <span class="parametername">deselectFormationAtIndex</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action">Action</a></span>
+        <span class="parametername">onAutoDeploy</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action">Action</a></span>
+        <span class="parametername">onBeginMission</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="TaleWorlds.MountAndBlade.Agent.html">Agent</a>&gt;</span>
+        <span class="parametername">formationIndicesAndSergeants</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="TaleWorlds.MountAndBlade.Agent.html">Agent</a>&gt;</span>
+        <span class="parametername">focusOnAgent</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_LoadConfiguration_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.LoadConfiguration*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_LoadConfiguration" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.LoadConfiguration"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_LoadConfiguration" class="expander" data-toggle="collapse">LoadConfiguration()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_LoadConfiguration" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void LoadConfiguration()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_OnAllFormationsAssignedSergeants_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.OnAllFormationsAssignedSergeants*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_OnAllFormationsAssignedSergeants_System_Collections_Generic_Dictionary_System_Int32_TaleWorlds_MountAndBlade_Agent__" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.OnAllFormationsAssignedSergeants(System.Collections.Generic.Dictionary{System.Int32,TaleWorlds.MountAndBlade.Agent})"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_OnAllFormationsAssignedSergeants_System_Collections_Generic_Dictionary_System_Int32_TaleWorlds_MountAndBlade_Agent__" class="expander" data-toggle="collapse">OnAllFormationsAssignedSergeants(Dictionary&lt;Int32, Agent&gt;)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_OnAllFormationsAssignedSergeants_System_Collections_Generic_Dictionary_System_Int32_TaleWorlds_MountAndBlade_Agent__" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnAllFormationsAssignedSergeants(Dictionary&lt;int, Agent&gt; formationsWithLooselyAssignedSergeants)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>, <a class="xref" href="TaleWorlds.MountAndBlade.Agent.html">Agent</a>&gt;</span>
+        <span class="parametername">formationsWithLooselyAssignedSergeants</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_OnEscape_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.OnEscape*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_OnEscape" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.OnEscape"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_OnEscape" class="expander" data-toggle="collapse">OnEscape()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_OnEscape" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool OnEscape()</code></pre>
+  </div>
+
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_OnFinalize_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.OnFinalize*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_OnFinalize" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.OnFinalize"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_OnFinalize" class="expander" data-toggle="collapse">OnFinalize()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_OnFinalize" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnFinalize()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_OnFinalize">ViewModel.OnFinalize()</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_OnUnitDeployed_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.OnUnitDeployed*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_OnUnitDeployed" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.OnUnitDeployed"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_OnUnitDeployed" class="expander" data-toggle="collapse">OnUnitDeployed()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_OnUnitDeployed" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnUnitDeployed()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_RefreshValues_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.RefreshValues*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_RefreshValues" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.RefreshValues"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_RefreshValues" class="expander" data-toggle="collapse">RefreshValues()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_RefreshValues" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void RefreshValues()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TaleWorlds.Library.ViewModel.html#TaleWorlds_Library_ViewModel_RefreshValues">ViewModel.RefreshValues()</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_SaveConfiguration_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.SaveConfiguration*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_SaveConfiguration" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.SaveConfiguration"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_SaveConfiguration" class="expander" data-toggle="collapse">SaveConfiguration()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_SaveConfiguration" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void SaveConfiguration()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_SelectFormationItemAtIndex_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.SelectFormationItemAtIndex*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_SelectFormationItemAtIndex_System_Int32_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.SelectFormationItemAtIndex(System.Int32)"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_SelectFormationItemAtIndex_System_Int32_" class="expander" data-toggle="collapse">SelectFormationItemAtIndex(Int32)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_SelectFormationItemAtIndex_System_Int32_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SelectFormationItemAtIndex(int index)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></span>
+        <span class="parametername">index</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_Tick_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.Tick*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_Tick" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.Tick"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_Tick" class="expander" data-toggle="collapse">Tick()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_Tick" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Tick()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_UnassignCurrentHero_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.UnassignCurrentHero*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_UnassignCurrentHero_TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleHeroItemVM_" data-uid="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleVM.UnassignCurrentHero(TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleHeroItemVM)"><a href="#collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_UnassignCurrentHero_TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleHeroItemVM_" class="expander" data-toggle="collapse">UnassignCurrentHero(OrderOfBattleHeroItemVM)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleVM_UnassignCurrentHero_TaleWorlds_MountAndBlade_ViewModelCollection_OrderOfBattle_OrderOfBattleHeroItemVM_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnassignCurrentHero(OrderOfBattleHeroItemVM heroItem)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.MountAndBlade.ViewModelCollection.OrderOfBattle.OrderOfBattleHeroItemVM.html">OrderOfBattleHeroItemVM</a></span>
+        <span class="parametername">heroItem</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+</article>
+          </div>
+          <div class="contribution-panel mobile-hide">
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Unofficial Bannerlord API Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

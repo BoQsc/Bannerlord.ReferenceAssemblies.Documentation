@@ -1,0 +1,1014 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class HumanAIComponent
+   | Unofficial Bannerlord API Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class HumanAIComponent
+   | Unofficial Bannerlord API Documentation ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/collapse-container.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                  </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent">
+  <h1 id="TaleWorlds_MountAndBlade_HumanAIComponent" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent">Class HumanAIComponent
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="TaleWorlds.MountAndBlade.AgentComponent.html">AgentComponent</a></div>
+    <div class="level2"><span class="xref">HumanAIComponent</span></div>
+  </div>
+  
+  
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="TaleWorlds.MountAndBlade.AgentComponent.html#TaleWorlds_MountAndBlade_AgentComponent_Agent">AgentComponent.Agent</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.MountAndBlade.AgentComponent.html#TaleWorlds_MountAndBlade_AgentComponent_Initialize">AgentComponent.Initialize()</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.MountAndBlade.AgentComponent.html#TaleWorlds_MountAndBlade_AgentComponent_GetMoraleAddition">AgentComponent.GetMoraleAddition()</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.MountAndBlade.AgentComponent.html#TaleWorlds_MountAndBlade_AgentComponent_GetMoraleDecreaseConstant">AgentComponent.GetMoraleDecreaseConstant()</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.MountAndBlade.AgentComponent.html#TaleWorlds_MountAndBlade_AgentComponent_OnItemPickup_TaleWorlds_MountAndBlade_SpawnedItemEntity_">AgentComponent.OnItemPickup(SpawnedItemEntity)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.MountAndBlade.AgentComponent.html#TaleWorlds_MountAndBlade_AgentComponent_OnWeaponDrop_TaleWorlds_MountAndBlade_MissionWeapon_">AgentComponent.OnWeaponDrop(MissionWeapon)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.MountAndBlade.AgentComponent.html#TaleWorlds_MountAndBlade_AgentComponent_OnStopUsingGameObject">AgentComponent.OnStopUsingGameObject()</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.MountAndBlade.AgentComponent.html#TaleWorlds_MountAndBlade_AgentComponent_OnHit_TaleWorlds_MountAndBlade_Agent_System_Int32_TaleWorlds_MountAndBlade_MissionWeapon__">AgentComponent.OnHit(Agent, Int32, MissionWeapon)</a>
+    </div>
+    <div>
+      <a class="xref" href="TaleWorlds.MountAndBlade.AgentComponent.html#TaleWorlds_MountAndBlade_AgentComponent_OnDisciplineChanged">AgentComponent.OnDisciplineChanged()</a>
+    </div>
+  </div>
+  
+  <h6><strong>Namespace</strong>: <a class="xref" href="TaleWorlds.MountAndBlade.html">TaleWorlds.MountAndBlade</a></h6>
+  <h6><strong>Assembly</strong>: TaleWorlds.MountAndBlade.dll</h6>
+  
+  <h5 id="TaleWorlds_MountAndBlade_HumanAIComponent_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class HumanAIComponent : AgentComponent</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_HumanAIComponent__ctor_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.#ctor*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_HumanAIComponent__ctor_TaleWorlds_MountAndBlade_Agent_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.#ctor(TaleWorlds.MountAndBlade.Agent)"><a href="#collapsible-TaleWorlds_MountAndBlade_HumanAIComponent__ctor_TaleWorlds_MountAndBlade_Agent_" class="expander" data-toggle="collapse">HumanAIComponent(Agent)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_HumanAIComponent__ctor_TaleWorlds_MountAndBlade_Agent_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HumanAIComponent(Agent agent)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.MountAndBlade.Agent.html">Agent</a></span>
+        <span class="parametername">agent</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  
+  <h4 id="TaleWorlds_MountAndBlade_HumanAIComponent_FormationSpeedAdjustmentEnabled" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.FormationSpeedAdjustmentEnabled"><a href="#collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_FormationSpeedAdjustmentEnabled" class="expander" data-toggle="collapse">FormationSpeedAdjustmentEnabled</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_FormationSpeedAdjustmentEnabled" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool FormationSpeedAdjustmentEnabled</code></pre>
+  </div>
+
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_HumanAIComponent_CurrentlyMovingGameObject_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.CurrentlyMovingGameObject*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_HumanAIComponent_CurrentlyMovingGameObject" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.CurrentlyMovingGameObject"><a href="#collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_CurrentlyMovingGameObject" class="expander" data-toggle="collapse">CurrentlyMovingGameObject</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_CurrentlyMovingGameObject" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UsableMissionObject CurrentlyMovingGameObject { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.MountAndBlade.UsableMissionObject.html">UsableMissionObject</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_HumanAIComponent_FollowedAgent_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.FollowedAgent*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_HumanAIComponent_FollowedAgent" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.FollowedAgent"><a href="#collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_FollowedAgent" class="expander" data-toggle="collapse">FollowedAgent</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_FollowedAgent" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Agent FollowedAgent { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="TaleWorlds.MountAndBlade.Agent.html">Agent</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_HumanAIComponent_IsMovingTo_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.IsMovingTo*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_HumanAIComponent_IsMovingTo" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.IsMovingTo"><a href="#collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_IsMovingTo" class="expander" data-toggle="collapse">IsMovingTo</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_IsMovingTo" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsMovingTo { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_HumanAIComponent_IsUsing_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.IsUsing*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_HumanAIComponent_IsUsing" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.IsUsing"><a href="#collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_IsUsing" class="expander" data-toggle="collapse">IsUsing</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_IsUsing" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsUsing { get; set; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_HumanAIComponent_ShouldCatchUpWithFormation_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.ShouldCatchUpWithFormation*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_HumanAIComponent_ShouldCatchUpWithFormation" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.ShouldCatchUpWithFormation"><a href="#collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_ShouldCatchUpWithFormation" class="expander" data-toggle="collapse">ShouldCatchUpWithFormation</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_ShouldCatchUpWithFormation" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ShouldCatchUpWithFormation { get; }</code></pre>
+  </div>
+
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_HumanAIComponent_AdjustSpeedLimit_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.AdjustSpeedLimit*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_HumanAIComponent_AdjustSpeedLimit_TaleWorlds_MountAndBlade_Agent_System_Single_System_Boolean_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.AdjustSpeedLimit(TaleWorlds.MountAndBlade.Agent,System.Single,System.Boolean)"><a href="#collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_AdjustSpeedLimit_TaleWorlds_MountAndBlade_Agent_System_Single_System_Boolean_" class="expander" data-toggle="collapse">AdjustSpeedLimit(Agent, Single, Boolean)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_AdjustSpeedLimit_TaleWorlds_MountAndBlade_Agent_System_Single_System_Boolean_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AdjustSpeedLimit(Agent agent, float desiredSpeed, bool limitIsMultiplier)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.MountAndBlade.Agent.html">Agent</a></span>
+        <span class="parametername">agent</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></span>
+        <span class="parametername">desiredSpeed</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></span>
+        <span class="parametername">limitIsMultiplier</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_HumanAIComponent_FollowAgent_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.FollowAgent*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_HumanAIComponent_FollowAgent_TaleWorlds_MountAndBlade_Agent_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.FollowAgent(TaleWorlds.MountAndBlade.Agent)"><a href="#collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_FollowAgent_TaleWorlds_MountAndBlade_Agent_" class="expander" data-toggle="collapse">FollowAgent(Agent)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_FollowAgent_TaleWorlds_MountAndBlade_Agent_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FollowAgent(Agent agent)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.MountAndBlade.Agent.html">Agent</a></span>
+        <span class="parametername">agent</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_HumanAIComponent_GetDesiredSpeedInFormation_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.GetDesiredSpeedInFormation*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_HumanAIComponent_GetDesiredSpeedInFormation_System_Boolean_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.GetDesiredSpeedInFormation(System.Boolean)"><a href="#collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_GetDesiredSpeedInFormation_System_Boolean_" class="expander" data-toggle="collapse">GetDesiredSpeedInFormation(Boolean)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_GetDesiredSpeedInFormation_System_Boolean_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetDesiredSpeedInFormation(bool isCharging)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></span>
+        <span class="parametername">isCharging</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_HumanAIComponent_MarkNeighborhoodDataAsDirty_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.MarkNeighborhoodDataAsDirty*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_HumanAIComponent_MarkNeighborhoodDataAsDirty" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.MarkNeighborhoodDataAsDirty"><a href="#collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_MarkNeighborhoodDataAsDirty" class="expander" data-toggle="collapse">MarkNeighborhoodDataAsDirty()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_MarkNeighborhoodDataAsDirty" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MarkNeighborhoodDataAsDirty()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_HumanAIComponent_MoveToClear_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.MoveToClear*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_HumanAIComponent_MoveToClear" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.MoveToClear"><a href="#collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_MoveToClear" class="expander" data-toggle="collapse">MoveToClear()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_MoveToClear" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveToClear()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_HumanAIComponent_MoveToUsableGameObject_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.MoveToUsableGameObject*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_HumanAIComponent_MoveToUsableGameObject_TaleWorlds_MountAndBlade_UsableMissionObject_TaleWorlds_MountAndBlade_IDetachment_TaleWorlds_MountAndBlade_Agent_AIScriptedFrameFlags_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.MoveToUsableGameObject(TaleWorlds.MountAndBlade.UsableMissionObject,TaleWorlds.MountAndBlade.IDetachment,TaleWorlds.MountAndBlade.Agent.AIScriptedFrameFlags)"><a href="#collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_MoveToUsableGameObject_TaleWorlds_MountAndBlade_UsableMissionObject_TaleWorlds_MountAndBlade_IDetachment_TaleWorlds_MountAndBlade_Agent_AIScriptedFrameFlags_" class="expander" data-toggle="collapse">MoveToUsableGameObject(UsableMissionObject, IDetachment, Agent.AIScriptedFrameFlags)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_MoveToUsableGameObject_TaleWorlds_MountAndBlade_UsableMissionObject_TaleWorlds_MountAndBlade_IDetachment_TaleWorlds_MountAndBlade_Agent_AIScriptedFrameFlags_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveToUsableGameObject(UsableMissionObject usedObject, IDetachment detachment, Agent.AIScriptedFrameFlags scriptedFrameFlags)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.MountAndBlade.UsableMissionObject.html">UsableMissionObject</a></span>
+        <span class="parametername">usedObject</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.MountAndBlade.IDetachment.html">IDetachment</a></span>
+        <span class="parametername">detachment</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.MountAndBlade.Agent.AIScriptedFrameFlags.html">Agent.AIScriptedFrameFlags</a></span>
+        <span class="parametername">scriptedFrameFlags</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_HumanAIComponent_OnAgentRemoved_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.OnAgentRemoved*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_HumanAIComponent_OnAgentRemoved" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.OnAgentRemoved"><a href="#collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_OnAgentRemoved" class="expander" data-toggle="collapse">OnAgentRemoved()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_OnAgentRemoved" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnAgentRemoved()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TaleWorlds.MountAndBlade.AgentComponent.html#TaleWorlds_MountAndBlade_AgentComponent_OnAgentRemoved">AgentComponent.OnAgentRemoved()</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_HumanAIComponent_OnDismount_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.OnDismount*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_HumanAIComponent_OnDismount_TaleWorlds_MountAndBlade_Agent_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.OnDismount(TaleWorlds.MountAndBlade.Agent)"><a href="#collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_OnDismount_TaleWorlds_MountAndBlade_Agent_" class="expander" data-toggle="collapse">OnDismount(Agent)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_OnDismount_TaleWorlds_MountAndBlade_Agent_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnDismount(Agent mount)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.MountAndBlade.Agent.html">Agent</a></span>
+        <span class="parametername">mount</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TaleWorlds.MountAndBlade.AgentComponent.html#TaleWorlds_MountAndBlade_AgentComponent_OnDismount_TaleWorlds_MountAndBlade_Agent_">AgentComponent.OnDismount(Agent)</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_HumanAIComponent_OnMount_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.OnMount*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_HumanAIComponent_OnMount_TaleWorlds_MountAndBlade_Agent_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.OnMount(TaleWorlds.MountAndBlade.Agent)"><a href="#collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_OnMount_TaleWorlds_MountAndBlade_Agent_" class="expander" data-toggle="collapse">OnMount(Agent)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_OnMount_TaleWorlds_MountAndBlade_Agent_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnMount(Agent mount)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.MountAndBlade.Agent.html">Agent</a></span>
+        <span class="parametername">mount</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TaleWorlds.MountAndBlade.AgentComponent.html#TaleWorlds_MountAndBlade_AgentComponent_OnMount_TaleWorlds_MountAndBlade_Agent_">AgentComponent.OnMount(Agent)</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_HumanAIComponent_OnRetreating_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.OnRetreating*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_HumanAIComponent_OnRetreating" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.OnRetreating"><a href="#collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_OnRetreating" class="expander" data-toggle="collapse">OnRetreating()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_OnRetreating" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnRetreating()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TaleWorlds.MountAndBlade.AgentComponent.html#TaleWorlds_MountAndBlade_AgentComponent_OnRetreating">AgentComponent.OnRetreating()</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_HumanAIComponent_OnTickAsAI_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.OnTickAsAI*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_HumanAIComponent_OnTickAsAI_System_Single_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.OnTickAsAI(System.Single)"><a href="#collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_OnTickAsAI_System_Single_" class="expander" data-toggle="collapse">OnTickAsAI(Single)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_OnTickAsAI_System_Single_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnTickAsAI(float dt)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></span>
+        <span class="parametername">dt</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TaleWorlds.MountAndBlade.AgentComponent.html#TaleWorlds_MountAndBlade_AgentComponent_OnTickAsAI_System_Single_">AgentComponent.OnTickAsAI(Single)</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_HumanAIComponent_OnWeaponHPChanged_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.OnWeaponHPChanged*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_HumanAIComponent_OnWeaponHPChanged_TaleWorlds_Core_ItemObject_System_Int32_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.OnWeaponHPChanged(TaleWorlds.Core.ItemObject,System.Int32)"><a href="#collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_OnWeaponHPChanged_TaleWorlds_Core_ItemObject_System_Int32_" class="expander" data-toggle="collapse">OnWeaponHPChanged(ItemObject, Int32)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_OnWeaponHPChanged_TaleWorlds_Core_ItemObject_System_Int32_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnWeaponHPChanged(ItemObject item, int hitPoints)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.Core.ItemObject.html">ItemObject</a></span>
+        <span class="parametername">item</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></span>
+        <span class="parametername">hitPoints</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="TaleWorlds.MountAndBlade.AgentComponent.html#TaleWorlds_MountAndBlade_AgentComponent_OnWeaponHPChanged_TaleWorlds_Core_ItemObject_System_Int32_">AgentComponent.OnWeaponHPChanged(ItemObject, Int32)</a></div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_HumanAIComponent_SetBehaviorParams_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.SetBehaviorParams*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_HumanAIComponent_SetBehaviorParams_TaleWorlds_MountAndBlade_HumanAIComponent_AISimpleBehaviorKind_System_Single_System_Single_System_Single_System_Single_System_Single_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.SetBehaviorParams(TaleWorlds.MountAndBlade.HumanAIComponent.AISimpleBehaviorKind,System.Single,System.Single,System.Single,System.Single,System.Single)"><a href="#collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_SetBehaviorParams_TaleWorlds_MountAndBlade_HumanAIComponent_AISimpleBehaviorKind_System_Single_System_Single_System_Single_System_Single_System_Single_" class="expander" data-toggle="collapse">SetBehaviorParams(HumanAIComponent.AISimpleBehaviorKind, Single, Single, Single, Single, Single)</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_SetBehaviorParams_TaleWorlds_MountAndBlade_HumanAIComponent_AISimpleBehaviorKind_System_Single_System_Single_System_Single_System_Single_System_Single_" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBehaviorParams(HumanAIComponent.AISimpleBehaviorKind behavior, float y1, float x2, float y2, float x3, float y3)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="TaleWorlds.MountAndBlade.HumanAIComponent.AISimpleBehaviorKind.html">HumanAIComponent.AISimpleBehaviorKind</a></span>
+        <span class="parametername">behavior</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></span>
+        <span class="parametername">y1</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></span>
+        <span class="parametername">x2</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></span>
+        <span class="parametername">y2</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></span>
+        <span class="parametername">x3</span>
+        <p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></span>
+        <span class="parametername">y3</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_HumanAIComponent_SetDefaultBehaviorParams_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.SetDefaultBehaviorParams*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_HumanAIComponent_SetDefaultBehaviorParams" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.SetDefaultBehaviorParams"><a href="#collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_SetDefaultBehaviorParams" class="expander" data-toggle="collapse">SetDefaultBehaviorParams()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_SetDefaultBehaviorParams" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDefaultBehaviorParams()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <a id="TaleWorlds_MountAndBlade_HumanAIComponent_UpdateFormationMovement_" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.UpdateFormationMovement*"></a>
+  
+  <h4 id="TaleWorlds_MountAndBlade_HumanAIComponent_UpdateFormationMovement" data-uid="TaleWorlds.MountAndBlade.HumanAIComponent.UpdateFormationMovement"><a href="#collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_UpdateFormationMovement" class="expander" data-toggle="collapse">UpdateFormationMovement()</a></h4>
+  
+  <div id="collapsible-TaleWorlds_MountAndBlade_HumanAIComponent_UpdateFormationMovement" class="collapse in">
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateFormationMovement()</code></pre>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+</article>
+          </div>
+          <div class="contribution-panel mobile-hide">
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Unofficial Bannerlord API Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
